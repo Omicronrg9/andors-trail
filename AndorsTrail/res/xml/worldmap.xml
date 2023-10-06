@@ -688,6 +688,26 @@
     <map id="haunted_cemetery1" x="440" y="482"/>
     <map id="haunted_cemetery2" x="429" y="482"/>
     <map id="ratdom_bwm1" x="137" y="355"/>
+    <map id="plateau1" x="406" y="135"/>
+    <map id="plateau2" x="372" y="150"/>
+    <map id="plateau3" x="419" y="111"/>
+    <map id="plateau4" x="406" y="99"/>
+    <map id="plateau8" x="437" y="135"/>
+    <map id="plateau5" x="419" y="99"/>
+    <map id="plateau6" x="424" y="78"/>
+    <map id="plateau7" x="406" y="78"/>
+    <map id="plateau9" x="372" y="78"/>
+    <map id="plateau10" x="357" y="78"/>
+    <map id="plateau11" x="326" y="78"/>
+    <map id="plateau12" x="326" y="106"/>
+    <map id="plateau13" x="326" y="130"/>
+    <map id="plateau14" x="308" y="78"/>
+    <map id="plateau15" x="308" y="108"/>
+    <map id="plateau16" x="308" y="130"/>
+    <map id="plateau17" x="372" y="99"/>
+    <map id="plateau18" x="357" y="99"/>
+    <map id="plateau19" x="357" y="124"/>
+    <map id="plateau20" x="372" y="120"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

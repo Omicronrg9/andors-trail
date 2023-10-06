@@ -1,0 +1,28 @@
+[
+    {
+        "id":"plateau_lvl",
+        "name":"Hidden: plateau heights",
+        "stages":[
+            {
+                "progress":0,
+                "logText":"Bottom"
+            },
+            {
+                "progress":1,
+                "logText":"First floor"
+            },
+            {
+                "progress":2,
+                "logText":"Second floor"
+            },
+            {
+                "progress":3,
+                "logText":"Third floor"
+            },
+            {
+                "progress":4,
+                "logText":"Highest floor"
+            }
+        ]
+    }
+]
