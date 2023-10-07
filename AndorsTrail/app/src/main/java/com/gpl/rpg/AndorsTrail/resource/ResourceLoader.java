@@ -250,6 +250,7 @@ public final class ResourceLoader {
 
 	private static void prepareTilesets(DynamicTileLoader loader, int mTileSize) {
 		final Size sz1x1 = new Size(1, 1);
+		final Size sz1x2 = new Size(1, 2);
 		final Size sz2x1 = new Size(2, 1);
 		final Size sz2x2 = new Size(2, 2);
 		final Size sz2x3 = new Size(2, 3);
@@ -300,17 +301,19 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.items_necklaces_1, "items_necklaces_1", new Size(10, 3), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_weapons_2, "items_weapons_2", new Size(7, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_weapons_3, "items_weapons_3", new Size(13, 5), sz1x1, mTileSize);
+
 		loader.prepareTileset(R.drawable.items_armours_2, "items_armours_2", sz7x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_armours_3, "items_armours_3", new Size(10, 4), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.items_rings_1, "items_rings_1", new Size(10, 3), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.items_japozero, "items_japozero", new Size(16, 37), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.items_rijackson_1, "items_rijackson_1", new Size(5, 4), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.items_g03_package_omi1, "items_g03_package_omi1", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_consumables_omi1, "items_consumables_omi1", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_feygard1, "items_feygard1", new Size(6, 2), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.items_g03_package_omi1, "items_g03_package_omi1", sz1x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.items_japozero, "items_japozero", new Size(16, 37), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.items_newb, "items_newb", new Size(32, 27), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_omi2, "items_omi2", new Size(6, 5), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_omgeeky, "items_omgeeky", new Size(10, 3), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_phoenix01, "items_phoenix01", sz16x8, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.items_rijackson_1, "items_rijackson_1", new Size(5, 4), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.items_rings_1, "items_rings_1", new Size(10, 3), sz1x1, mTileSize);
 		/*INSERT_ITEMS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.monsters_armor1, "monsters_armor1", sz1x1, sz1x1, mTileSize);
@@ -336,6 +339,10 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_men, "monsters_men", new Size(9, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_men2, "monsters_men2", new Size(10, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_misc, "monsters_misc", new Size(13, 1), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_newb_1, "monsters_newb_1", new Size(40, 34), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_newb_2, "monsters_newb_2", new Size(16, 2), sz1x2, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_newb_3, "monsters_newb_3", new Size(20, 4), sz2x2, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_newb_4, "monsters_newb_4", new Size(4, 2), sz2x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_rats, "monsters_rats", new Size(5, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_redshrike1, "monsters_redshrike1", sz7x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_rltiles1, "monsters_rltiles1", new Size(20, 8), sz1x1, mTileSize);
@@ -374,6 +381,7 @@ public final class ResourceLoader {
 		/*INSERT_NPCS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.map_bed_1, "map_bed_1", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_boats_1, "map_boats_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_border_1, "map_border_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_bridge_1, "map_bridge_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_bridge_2, "map_bridge_2", mapTileSize, sz1x1, mTileSize);
@@ -382,6 +390,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_cavewall_2, "map_cavewall_2", new Size(18, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_cavewall_3, "map_cavewall_3", new Size(18, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_cavewall_4, "map_cavewall_4", new Size(18, 6), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_cavewall_5, "map_cavewall_5", new Size(6, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_chair_table_1, "map_chair_table_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_chair_table_2, "map_chair_table_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_crate_1, "map_crate_1", mapTileSize, sz1x1, mTileSize);
@@ -401,6 +410,8 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_ground_6, "map_ground_6", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_ground_7, "map_ground_7", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_ground_8, "map_ground_8", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_ground_9, "map_ground_9", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_guynmart, "map_guynmart", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_house_1, "map_house_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_house_2, "map_house_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_indoor_1, "map_indoor_1", mapTileSize, sz1x1, mTileSize);
@@ -409,23 +420,34 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_outdoor_1, "map_outdoor_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_pillar_1, "map_pillar_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_pillar_2, "map_pillar_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_pillar_3, "map_pillar_3", new Size(16, 10), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_plant_1, "map_plant_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_plant_2, "map_plant_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_plant_3, "map_plant_3", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_plateau, "map_plateau", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_plateau_2, "map_plateau_2", new Size(8, 8), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_ratdom, "map_ratdom", new Size(18, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_rock_1, "map_rock_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_rock_2, "map_rock_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_rock_3, "map_rock_3", new Size(6, 5), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_roof_1, "map_roof_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_roof_2, "map_roof_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_roof_3, "map_roof_3", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_roof_4, "map_roof_4", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_roof_5, "map_roof_5", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_shop_1, "map_shop_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_sign_ladder_1, "map_sign_ladder_1", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_sign_ladder_omi2, "map_sign_ladder_omi2", new Size(8, 4), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_table_1, "map_table_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_table_2, "map_table_2", new Size(14, 8), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_temple_1, "map_temple", new Size(23, 16), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_trail_1, "map_trail_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_1, "map_transition_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_2, "map_transition_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_3, "map_transition_3", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_4, "map_transition_4", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_5, "map_transition_5", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_transition_6, "map_transition_6", new Size(18, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_tree_1, "map_tree_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_tree_2, "map_tree_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_1, "map_wall_1", mapTileSize, sz1x1, mTileSize);
@@ -434,16 +456,6 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_wall_4, "map_wall_4", new Size(15, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_window_1, "map_window_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_window_2, "map_window_2", mapTileSize, sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_guynmart, "map_guynmart", mapTileSize, sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_cavewall_5, "map_cavewall_5", new Size(6, 6), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_rock_3, "map_rock_3", new Size(6, 5), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_sign_ladder_omi2, "map_sign_ladder_omi2", new Size(8, 4), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_transition_6, "map_transition_6", new Size(18, 8), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_ratdom, "map_ratdom", new Size(18, 6), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_boats_1, "map_boats_1", mapTileSize, sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_ground_9, "map_ground_9", mapTileSize, sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_plant_3, "map_plant_3", mapTileSize, sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_roof_4, "map_roof_4", mapTileSize, sz1x1, mTileSize);
 		/*INSERT_MAP_TILESETS_HERE*/
 
 		loader.prepareTileset(R.drawable.effect_blood4, "effect_blood4", new Size(7, 2), sz1x1, mTileSize);
