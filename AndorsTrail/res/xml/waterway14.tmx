@@ -196,10 +196,10 @@
  <tileset firstgid="8009" name="map_plateau_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_plateau_2.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="8025" name="map_plant_3" tilewidth="32" tileheight="32">
+ <tileset firstgid="8073" name="map_plant_3" tilewidth="32" tileheight="32">
   <image source="../drawable/map_plant_3.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8153" name="map_tree_3" tilewidth="32" tileheight="32">
+ <tileset firstgid="8201" name="map_tree_3" tilewidth="32" tileheight="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <layer name="Ground" width="30" height="30">
@@ -263,11 +263,6 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="plateauto1" type="script" x="544" y="32" width="160" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="burrower_1" type="spawn" x="352" y="640" width="576" height="256">
@@ -296,4 +291,5 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys"/>
+ <objectgroup name="Scripts"/>
 </map>

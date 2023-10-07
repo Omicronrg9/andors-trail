@@ -285,18 +285,6 @@
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
- <objectgroup name="Scripts">
-  <object name="plateauto2" type="script" x="224" y="64" width="128" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
-  <object name="plateauto1" type="script" x="224" y="128" width="96" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
- </objectgroup>
  <objectgroup name="Replace">
   <object name="p3f1_1" type="replace" x="64" y="0" width="864" height="736">
    <properties>
@@ -312,6 +300,18 @@
     <property name="requireId" value="plateau_lvl"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Scripts">
+  <object name="plateauto2" type="script" x="224" y="64" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="plateauto1" type="script" x="224" y="128" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
