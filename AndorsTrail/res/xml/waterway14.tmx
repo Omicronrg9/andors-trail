@@ -291,5 +291,11 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys"/>
- <objectgroup name="Scripts"/>
+ <objectgroup name="Scripts">
+  <object name="plateauto1" type="script" x="544" y="32" width="160" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -429,7 +429,7 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="plateauto2" type="script" x="768" y="384" width="96" height="32">
+  <object name="plateauto2" type="script" x="768" y="384" width="128" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
