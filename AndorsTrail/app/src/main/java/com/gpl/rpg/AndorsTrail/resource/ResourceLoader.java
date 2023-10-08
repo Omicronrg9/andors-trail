@@ -440,7 +440,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_sign_ladder_omi2, "map_sign_ladder_omi2", new Size(8, 4), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_table_1, "map_table_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_table_2, "map_table_2", new Size(14, 8), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_temple_1, "map_temple", new Size(23, 16), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_temple_1, "map_temple_1", new Size(23, 16), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_trail_1, "map_trail_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_1, "map_transition_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_2, "map_transition_2", mapTileSize, sz1x1, mTileSize);
@@ -450,6 +450,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_transition_6, "map_transition_6", new Size(18, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_tree_1, "map_tree_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_tree_2, "map_tree_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_tree_3, "map_tree_3", new Size(32, 17), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_1, "map_wall_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_2, "map_wall_2", new Size(15, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_3, "map_wall_3", new Size(15, 8), sz1x1, mTileSize);
