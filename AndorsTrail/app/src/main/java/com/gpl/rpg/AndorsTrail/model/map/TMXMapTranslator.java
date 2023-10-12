@@ -405,6 +405,11 @@ public final class TMXMapTranslator {
 				int tileID = tileCache.getTileID(tile.tilesetName, tile.localId);
 				result.tiles[dx][dy] = tileID;
 				usedTileIDs.add(tileID);
+				if(AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA){
+					if(tileID == 0){
+						L.log("Tileid 0 in "+ tile.tilesetName);
+					}
+				}
 			}
 		}
 		return result;

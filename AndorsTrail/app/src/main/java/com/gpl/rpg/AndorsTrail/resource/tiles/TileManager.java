@@ -18,6 +18,7 @@ import android.os.AsyncTask;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.AndorsTrailPreferences;
 import com.gpl.rpg.AndorsTrail.R;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
@@ -33,6 +34,7 @@ import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.model.map.TMXMapTranslator;
+import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 
 public final class TileManager {
@@ -374,6 +376,10 @@ public final class TileManager {
 			cachedTileIDs = getTileIDsFor(adjacentMap, adjacentMapTiles, world);
 			tileIDsPerMap.put(mapName, cachedTileIDs);
 		}
+
+		if(AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES){
+			L.log("TileIDsFor " + mapName + "\n" + cachedTileIDs);
+		}
 		dest.addAll(cachedTileIDs);
 	}
 	public void cacheAdjacentMaps(final Resources res, final WorldContext world, final PredefinedMap nextMap) {
@@ -391,6 +397,9 @@ public final class TileManager {
 
 				HashSet<Integer> tileIDs = new HashSet<Integer>();
 				for (String mapName : adjacentMapNames) {
+					if(AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES){
+						L.log("addTileIDsFor " + mapName);
+					}
 					addTileIDsFor(tileIDs, mapName, res, world);
 				}
 

@@ -74,6 +74,9 @@ public final class TileCache {
 		HashMap<ResourceFileTileset, SparseArray<ResourceFileTile>> tilesToLoadPerSourceFile = new HashMap<ResourceFileTileset, SparseArray<ResourceFileTile>>();
 		for(int tileID : iconIDs) {
 			ResourceFileTile tile = resourceTiles[tileID];
+			if(tile == null && AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES){
+				L.log("could not find resourceTiles for id: " + tileID);
+			}
 			SparseArray<ResourceFileTile> tiles = tilesToLoadPerSourceFile.get(tile.tileset);
 			if (tiles == null) {
 				tiles = new SparseArray<TileCache.ResourceFileTile>();
