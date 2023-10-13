@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 33
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.gpl.rpg.AndorsTrail"
         minSdkVersion 14
-        targetSdkVersion 34
+        targetSdkVersion 33
     }
 
     buildTypes {

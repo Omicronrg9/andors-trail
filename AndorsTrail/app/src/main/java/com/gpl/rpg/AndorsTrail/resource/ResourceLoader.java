@@ -317,6 +317,7 @@ public final class ResourceLoader {
 		/*INSERT_ITEMS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.monsters_armor1, "monsters_armor1", sz1x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_cats, "monsters_cats", new Size(6,1), sz1x1, mTileSize)
 		loader.prepareTileset(R.drawable.monsters_cyclops, "monsters_cyclops", sz1x1, sz2x3, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_demon1, "monsters_demon1", sz1x1, sz2x2, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_demon2, "monsters_demon2", sz1x1, sz2x2, mTileSize);
