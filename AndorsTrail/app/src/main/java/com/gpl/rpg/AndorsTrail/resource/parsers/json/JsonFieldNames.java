@@ -8,6 +8,7 @@ public final class JsonFieldNames {
 		public static final String category = "category";
 		public static final String isStacking = "isStacking";
 		public static final String isPositive = "isPositive";
+		public static final String isDurationStacking = "isDurationStacking";
 		public static final String roundEffect = "roundEffect";
 		public static final String fullRoundEffect = "fullRoundEffect";
 		public static final String abilityEffect = "abilityEffect";

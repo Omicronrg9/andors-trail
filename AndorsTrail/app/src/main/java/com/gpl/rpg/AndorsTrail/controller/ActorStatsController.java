@@ -60,9 +60,11 @@ public final class ActorStatsController {
 			if (e.magnitude <= 0) continue;
 			if (e.conditionType.isStacking) {
 				removeStackableActorCondition(player, e.conditionType, e.magnitude, ActorCondition.DURATION_FOREVER);
+			} else if (e.conditionType.isDurationStacking){
+				removeNonStackableActorCondition(player, e.conditionType, e.magnitude, ActorCondition.DURATION_FOREVER);
 			} else {
 				removeNonStackableActorCondition(player, e.conditionType, e.magnitude, ActorCondition.DURATION_FOREVER);
-			}
+			} // The else if here is likely not needed.
 		}
 	}
 
@@ -166,8 +168,10 @@ public final class ActorStatsController {
 			if (!immune) {
 				if (e.conditionType.isStacking) {
 					addStackableActorCondition(actor, e, duration);
+				} else if (e.conditionType.isDurationStacking) {
+					addDurationStackingActorCondition(actor, e, duration);
 				} else {
-					addNonStackableActorCondition(actor, e, duration);
+					addNonStackableActorCondition(actor,e, duration);
 				}
 			}
 		}
@@ -208,6 +212,24 @@ public final class ActorStatsController {
 		}
 
 		ActorCondition c = e.createCondition(duration);
+		actor.conditions.add(c);
+		actorConditionListeners.onActorConditionAdded(actor, c);
+	}
+	private void addDurationStackingActorCondition(Actor actor, ActorConditionEffect e, int duration) {
+		final ActorConditionType type = e.conditionType;
+		int magnitude = e.magnitude;
+
+		for(int i = actor.conditions.size() - 1; i >= 0; --i) {
+			ActorCondition c = actor.conditions.get(i);
+			if (!type.conditionTypeID.equals(c.conditionType.conditionTypeID)) continue;
+			if (c.magnitude == magnitude) {
+				// If the actor already has a condition of this type and the same magnitude, just increase the duration instead.
+				c.duration += duration;
+				actorConditionListeners.onActorConditionDurationChanged(actor, c);
+				return;
+			}
+		}
+		ActorCondition c = new ActorCondition(type, magnitude, duration);
 		actor.conditions.add(c);
 		actorConditionListeners.onActorConditionAdded(actor, c);
 	}

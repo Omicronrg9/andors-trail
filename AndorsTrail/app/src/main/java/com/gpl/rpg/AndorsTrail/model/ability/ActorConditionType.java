@@ -14,6 +14,7 @@ public final class ActorConditionType {
 	public final ConditionCategory conditionCategory;
 	public final boolean isStacking;
 	public final boolean isPositive;
+	public final boolean isDurationStacking;
 	public final StatsModifierTraits statsEffect_everyRound;
 	public final StatsModifierTraits statsEffect_everyFullRound;
 	public final AbilityModifierTraits abilityEffect;
@@ -25,6 +26,7 @@ public final class ActorConditionType {
 			, ConditionCategory conditionCategory
 			, boolean isStacking
 			, boolean isPositive
+			, boolean isDurationStacking
 			, StatsModifierTraits statsEffect_everyRound
 			, StatsModifierTraits statsEffect_everyFullRound
 			, AbilityModifierTraits abilityEffect
@@ -35,6 +37,7 @@ public final class ActorConditionType {
 		this.conditionCategory = conditionCategory;
 		this.isStacking = isStacking;
 		this.isPositive = isPositive;
+		this.isDurationStacking = isDurationStacking;
 		this.statsEffect_everyRound = statsEffect_everyRound;
 		this.statsEffect_everyFullRound = statsEffect_everyFullRound;
 		this.abilityEffect = abilityEffect;
