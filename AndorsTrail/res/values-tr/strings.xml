@@ -288,10 +288,10 @@
     <string name="skillinfo_action_levelup">Seviye atladın</string>
     <string name="skill_current_level">Mevcut seviye: %1$d</string>
     <string name="skill_current_level_with_maximum">Mevcut seviye: %1$d / %2$d</string>
-    <string name="skill_number_of_increases_one">Geliştirmek için bir beceri seçebilirsiniz.</string>
+    <string name="skill_number_of_increases_one">Geliştirmek için bir beceri seçebilirsiniz. Beceri puanları kullanılana kadar saklanır.</string>
     <string name="skill_number_of_increases_several">Geliştirmek için %1$d beceri seçebilirsiniz.</string>
-    <string name="loadsave_save_to_new_slot">Yeni kaydedilmiş oyun sekmesi yarat</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Kayıtlı oyunun üzerine yaz ?</string>
+    <string name="loadsave_save_to_new_slot">Yeni oyun kaydı slotu oluştur</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Kayıtlı oyunun üzerine yaz\?</string>
     <string name="iteminfo_displaytypes_ordinary">Sıradan</string>
     <string name="iteminfo_displaytypes_quest">Görev eşyası</string>
     <string name="iteminfo_displaytypes_legendary">Efsanevi</string>
@@ -620,7 +620,7 @@
     <string name="loadsave_import_save">Kayıtlı oyunları içeri aktar</string>
     <string name="loadsave_import_save_successfull">İçeri aktarma başarılı</string>
     <string name="loadsave_import_save_unsuccessfull">İçeri aktarma başarısız</string>
-    <string name="loadsave_import_save_error_unknown">İçe aktarılırken bilinmeyen bir hata oluştu.</string>
+    <string name="loadsave_import_save_error_unknown">İçe aktarılırken bilinmeyen bir hata meydana geldi.</string>
     <string name="loadsave_import_file_exists_question">Mevcut Yuvanın Üzerine Yazılsın mı\? Hedef yuvada zaten kayıtlı bir oyun var. Mevcut kaydı tutmak mı, içe aktarılan kayıtla üzerine yazmak mı yoksa kaydı bir yuvaya içe aktarmak mı istiyorsunuz\?
 \n
 \n%1$s
@@ -635,11 +635,14 @@
     <string name="loadsave_import_worldmap_unsuccessfull">Dünya Haritası içeri aktarılamadı</string>
     <string name="loadsave_import_worldmap_wrong_directory">Bu klasörde bir dünya haritası olduğundan emin misiniz\? Lütfen dışa aktarma konumunuzun içindeki \'worldmap\' adlı klasörü seçin.</string>
     <string name="monsterinfo_killcount">Önceki öldürmeler</string>
-    <string name="loadsave_export_error_unknown">Dışarı aktarılırken bir sorun oluştu</string>
+    <string name="loadsave_export_error_unknown">Dışarı aktarılırken bilinmeyen bir hata oluştu.</string>
     <string name="loadsave_export_info">Lütfen tüm dosyaların dışa aktarılacağı dizini seçin.</string>
-    <string name="loadsave_exporting_savegames">Kayıtlı oyunları dışa aktar</string>
-    <string name="loadsave_exporting_worldmap">Dünya haritasını dışarı aktar</string>
+    <string name="loadsave_exporting_savegames">Kayıtlı oyunlar dışarı aktarılıyor</string>
+    <string name="loadsave_exporting_worldmap">Dünya haritasını dışarı aktarılıyor</string>
     <string name="loadsave_import_save_info">Lütfen içeri aktarmak istediğiniz tüm oyun kayıtlarını seçin.</string>
     <string name="loadsave_importing_savegames">Kayıtlı oyunları içe aktar</string>
-    <string name="loadsave_import_error_unknown">İçe aktarılırken bilinmeyen bir sorun oluştu.</string>
+    <string name="loadsave_import_error_unknown">İçe aktarılırken bilinmeyen bir hata meydana geldi.</string>
+    <string name="loadsave_import_worldmap_wrong_file">Dünya haritası seçtiğinize emin misiniz\? Lütfen dışa aktarılmış \'worldmap.zip\' adlı dosyayı dışarı aktarılanlar kısmından seçiniz.</string>
+    <string name="loadsave_import_worldmap_info">Lütfen dünya haritası zip dosyasını seçin.</string>
+    <string name="loadsave_importing_worldmap">Dünya haritası içe aktarılıyor</string>
 </resources>

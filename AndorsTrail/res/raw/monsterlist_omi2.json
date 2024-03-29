@@ -760,7 +760,7 @@
         },
         "deathEffect":{
             "increaseCurrentHP":{
-                "min":15,
+                "min":-15,
                 "max":0
             }
         }
@@ -845,6 +845,14 @@
                 "max":5
             },
             "conditionsSource":[
+                {
+                    "condition":"flesh_rot",
+                    "magnitude":4,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ],
+            "conditionsTarget":[
                 {
                     "condition":"flesh_rot",
                     "magnitude":4,
@@ -1052,7 +1060,7 @@
         "hitEffect":{
             "increaseCurrentHP":{
                 "min":0,
-                "max":0
+                "max":5
             },
             "conditionsSource":[
                 {

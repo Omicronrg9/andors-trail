@@ -1098,6 +1098,123 @@
                 ]
             },
             {
+                "text":"[Lie] I just recovered 10000 gold from my latest mission and was told to give it to The Guild.",
+                "nextPhraseID":"troublemaker_wm_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"I have found Defy and his men.",
+                "nextPhraseID":"troublemaker_wm_report_5_alt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm confused. I gave Defy the fake key that you gave me, but what am I supposed to do now?",
+                "nextPhraseID":"troublemaker_wm_report_45",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":56
+                    }
+                ]
+            },
+            {
+                "text":"I have found Defy and his men.",
+                "nextPhraseID":"troublemaker_wm_report_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":76,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] I have deposited the 10000 gold. Here is your key back, as promised.",
+                "nextPhraseID":"troublemaker_wm_return_fake_key_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"aidem_fake_vault_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I encountered Defy and his men and was forced to kill them!",
+                "nextPhraseID":"troublemaker_wm_deffy_killed_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":76
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] I have deposited the 10000 gold. Here is your key back, as promised.",
+                "nextPhraseID":"troublemaker_wm_return_real_key_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":77
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"thieves_vault_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"Can I take a look at the Guild's current supplies?",
                 "nextPhraseID":"S"
             }
@@ -4829,7 +4946,7 @@
     },
     {
         "id":"umar_guild05_1a",
-        "message":"[Here, the story continues]"
+        "message":"You are really very hardworking. I can't find new work for you fast enough. You're free for now."
     },
     {
         "id":"umar_guild04_1",

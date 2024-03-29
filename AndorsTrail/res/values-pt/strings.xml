@@ -313,7 +313,7 @@
     <string name="skill_prerequisite_other_skill">Para subir o nível desta habilidade tens de ter, pelo menos, o nível %1$d da habilidade %2$s.</string>
     <string name="skill_prerequisite_level">Para subir o nível desta habilidade tens de ter, no mínimo, o nível %1$d de experiência.</string>
     <string name="skill_prerequisite_stat">Para subir o nível desta habilidade tens de ter, pelo menos, %1$d %2$s (estatísticas base).</string>
-    <string name="skill_number_of_increases_one">Podes selecionar uma habilidade para aumentar.</string>
+    <string name="skill_number_of_increases_one">Você pode selecionar uma habilidade para melhorar. Os pontos de habilidade são mantidos até serem usados.</string>
     <string name="skill_number_of_increases_several">Podes selecionar %1$d habilidades para aumentar.</string>
     <string name="levelup_adds_new_skillpoint">Este nível também te dá um novo ponto de habilidade para gastar!</string>
     <string name="loadsave_save_to_new_slot">Criar nova posição para guardar o jogo</string>

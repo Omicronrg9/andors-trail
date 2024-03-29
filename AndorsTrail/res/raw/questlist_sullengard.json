@@ -159,12 +159,36 @@
                 "logText":"haunted_cemetery1_walkable"
             },
             {
+                "progress":36,
+                "logText":"East of Stoutford and west of Sullengard, the PC has discovered a broken bridge that is impassable due to broken boards."
+            },
+            {
+                "progress":37,
+                "logText":"East of Stoutford and west of Sullengard, the PC has seen first hand that the once broken bridge is now fixed."
+            },
+            {
+                "progress":38,
+                "logText":"Seraphina robbed the PC"
+            },
+            {
+                "progress":39,
+                "logText":"\"Aidem\" thieves have spawned."
+            },
+            {
                 "progress":110,
                 "logText":"110 Ravine achievement"
             },
             {
                 "progress":120,
                 "logText":"120 bar achievement"
+            },
+            {
+                "progress":40,
+                "logText":"The PC has be rewarded by Zaccheria for getting Alaric off the roads."
+            },
+            {
+                "progress":41,
+                "logText":"the PC doesn't have 39, so let them have access to the \"Aidem\" camp. Or the player does have 39 and has Wanted Men 15, then let them pass."
             }
         ]
     },

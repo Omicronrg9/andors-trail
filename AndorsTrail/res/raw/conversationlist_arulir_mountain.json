@@ -680,6 +680,7 @@
                     {
                         "requireType":"wear",
                         "requireID":"arulir_boots",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -903,7 +904,8 @@
                 "requires":[
                     {
                         "requireType":"wear",
-                        "requireID":"arulir_cap"
+                        "requireID":"arulir_cap",
+                        "value":1
                     }
                 ]
             },
@@ -914,6 +916,7 @@
                     {
                         "requireType":"wear",
                         "requireID":"arulir_cap",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -1036,6 +1039,7 @@
                     {
                         "requireType":"wear",
                         "requireID":"arulir_cap",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -1046,7 +1050,8 @@
                 "requires":[
                     {
                         "requireType":"wear",
-                        "requireID":"arulir_cap"
+                        "requireID":"arulir_cap",
+                        "value":1
                     }
                 ]
             }

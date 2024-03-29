@@ -373,6 +373,17 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Hello. I am wondering if you could help me?",
+                "nextPhraseID":"arensia_witch_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":10
+                    }
+                ]
             }
         ]
     },

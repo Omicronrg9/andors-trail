@@ -172,10 +172,10 @@ If you intend to enable or disable map objects dynamically (through a quest/dial
 
 - A "**script**" must have the following property:
   - "**when**" with one of the following textual values: "enter", "step", "round", "always".
-- If the value is "**enter**", the script is evaluated once each time the player enters the area, including during battle (fleeing).
-- If the value is "**step**", the script is evaluated each time the player moves within the area (when the target tile of the movement is in the area), including upon entering the area and during battle (fleeing).
-- If the value is "**round**", the script will be evaluated on each new round as long as the player is in the area, including during battle.
-- If the value is "**always**", the script will be evaluated on each game tick (~500ms) while the player is in the area. Use with caution, including during battle.
+    - If the value is "**enter**", the script is evaluated once each time the player enters the area, including during battle (fleeing).
+    - If the value is "**step**", the script is evaluated each time the player moves within the area (when the target tile of the movement is in the area), including upon entering the area and during battle (fleeing).
+    - If the value is "**round**", the script will be evaluated on each new round as long as the player is in the area, including during battle.
+    - If the value is "**always**", the script will be evaluated on each game tick (~500ms) while the player is in the area. Use with caution, including during battle.
 
 
 ![sign](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/sign.png)
@@ -206,30 +206,34 @@ If you intend to enable or disable map objects dynamically (through a quest/dial
   - "**requireType**" with one of the following textual values: "questProgress", "questLatestProgress", "inventoryRemove", "inventoryKeep", "wear", "skillLevel", "killedMonster", "timerElapsed", "usedItem", "spentGold", "consumedBonemeals", "hasActorCondition".
   - "**requireID**" with a textual value. The specifities of this property depends on the selected "requireType", and will be detailed below.
   - "**requireValue**" with a textual value. The specifities of this property depends on the selected "requireType", and will be detailed below.
-
-- When "requireType" is "questProgress" or "questLatestProgress", the "requireID" property must have a value matching a quest ID, and the "requireValue" must have a value matching a quest step ID. In both case, the player must have reached this quest stage in order to fulfill the requirement. The difference between "questProgress" and "latestQuestProgress" is that the latter also requires that no other quest stage with a greater ID must have been reached (numerical comparison between the stage IDs).
-
   - "**requireNegation**" with the value true or false. false being the default, this property can be omitted completely in this case. When the value is true, the required is fulfilled only when it shouldn't be.
 
-- When "requireType" is "**inventoryRemove**", "**inventoryKeep**" or "**usedItems**", the "requireID" property must have a value matching an item ID, and the "requireValue" must have a positive numerical value depicting the quantity of the item. In the case of the "**usedItems**" type, the player must have used at least the selected quantity of the selected item type (quaffed X potions, eat Y apples...). In the case of "**inventoryKeep**" and "**inventoryRemove**", the player must have at least the selected quantity of the selected item in his inventory, the difference is that with the latter, these items will be taken from the player. I'd suggest avoiding doing that outside of a dialogue though, or with proper warning.
+- Some details depending on different requireTypes:
+  - When "requireType" is "**questProgress**" or "**questLatestProgress**", the "requireID" property must have a value matching a quest ID, and the 
+"requireValue" must have a value matching a quest step ID. In both case, the player must have reached this quest stage in order to fulfill the requirement. The difference between "questProgress" and "latestQuestProgress" is that the latter also requires that no other quest stage with a greater ID must have been reached (numerical comparison between the stage IDs).
 
-- When "requireType" is "**wear**", the "requireID" property must have a value matching an item ID. "requireValue" is not used. To fulfill this, the player must have the selected item equipped.
+  - When "requireType" is "**inventoryRemove**", "**inventoryKeep**" or "**usedItems**", the "requireID" property must have a value matching an item ID, and the "requireValue" must have a positive numerical value depicting the quantity of the item. In the case of the "**usedItems**" type, the player must have used at least the selected quantity of the selected item type (quaffed X potions, eat Y apples...). In the case of "**inventoryKeep**" and "**inventoryRemove**", the player must have at least the selected quantity of the selected item in his inventory, the difference is that with the latter, these items will be taken from the player. I'd suggest avoiding doing that outside of a dialogue though, or with proper warning.
 
-- When "requireType" is "**skillLevel**", the "requireID" property must have a value matching a skill ID, as found here: [url]https://github.com/Zukero/andors-trail/blob/master/AndorsTrail/src/com/gpl/rpg/AndorsTrail/model/ability/SkillCollection.java[/url]. The "requireValue" property must have a numerical value that indicate the level of the skill that is needed to fulfill the requirement.
+  - When "requireType" is "**wear**", the "requireID" property must have a value matching an item ID. "requireValue" is not used. To fulfill this, the player must have the selected item equipped.
 
-- When "requireType" is "**killedMonster**", the "requireID" property must have a value matching a NPC ID, and the "requireValue" property must be a numerical value that indicate the number of the given NPC that the player must have killed.
+  - When "requireType" is "**skillLevel**", the "requireID" property must have a value matching a skill ID, as found here: [url]https://github.com/Zukero/andors-trail/blob/master/AndorsTrail/src/com/gpl/rpg/AndorsTrail/model/ability/SkillCollection.java[/url]. The "requireValue" property must have a numerical value that indicate the level of the skill that is needed to fulfill the requirement.
 
-- When "requireType" is "**timerElapsed**", the "requireID" property must be a textual value matching the ID of a timer started by a dialogue. The "requireValue" must be a numerical value indicating the number of game rounds that must have passed since the timer was last started.
+  - When "requireType" is "**killedMonster**", the "requireID" property must have a value matching a NPC ID, and the "requireValue" property must be a numerical value that indicate the number of the given NPC that the player must have killed.
 
-- When "requireType" is "**factionScore**", the "requireID" property must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "requireValue" must be a numerical value (positive or negative) indicating the minimum score the player must have for this faction to fulfill this requirement.
+  - When "requireType" is "**timerElapsed**", the "requireID" property must be a textual value matching the ID of a timer started by a dialogue. The "requireValue" must be a numerical value indicating the number of game rounds that must have passed since the timer was last started.
 
-- When "requireType" is "**spentGold**", the "requireID" property is unused, and the "requireValue" must be a numerical value indicating the total amount of gold that the player must have spent overall.
+  - When "requireType" is "**factionScore**", the "requireID" property must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "requireValue" must be a numerical value (positive or negative) indicating the minimum score the player must have for this faction to fulfill this requirement.
 
-- When "requireType" is "**consumedBonemeals**", the "requireID" property is unused, and the "requireValue" must be a numerical value indicating the total amount of bonemeal potions (all kind of bonemeals, including Lodar's) that the player must have consumed overall.
+  - When "requireType" is "**spentGold**", the "requireID" property is unused, and the "requireValue" must be a numerical value indicating the total amount of gold that the player must have spent overall.
 
-- When "requireType" is "**hasActorConditions**", the "requireID" property must have a value matching an actor condition ID. The "requireValue" property is unused. The requirement is fulfilled when the player is afflicted by the selected actor condition.
+  - When "requireType" is "**consumedBonemeals**", the "requireID" property is unused, and the "requireValue" must be a numerical value indicating the total amount of bonemeal potions (all kind of bonemeals, including Lodar's) that the player must have consumed overall.
+
+  - When "requireType" is "**hasActorConditions**", the "requireID" property must have a value matching an actor condition ID. The "requireValue" property is unused. The requirement is fulfilled when the player is afflicted by the selected actor condition.
 
 **Full example using all tags and attributes.**
+<details>
+<summary>Example map - click to open</summary>
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
@@ -615,12 +619,12 @@ If you intend to enable or disable map objects dynamically (through a quest/dial
 </map>
 ```
 
-
+</details>
 
 
 ## Worldmaps format.
 
-**Worldmaps use a custom XML format. All worldmaps are defined in a single worldmap.xml file located under res/xml/ in the game source.**
+Worldmaps use a custom XML format. All worldmaps are defined in a single worldmap.xml file located under res/xml/ in the game source.
 
 ![ui_icon_map](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_map.png)
 The root tag is always "**worldmap**" and is composed of several "**segment**" sub-tags. Each worldmap in ATCS represent a separate "segment". Worldmaps are really best created and edited using ATCS, but masochists can use any text editor.
@@ -666,7 +670,7 @@ Each "**namedarea**" tag represent a label on the map, like a town name. The lab
 
 ## Actor conditions format.
 
-**Actor conditions are defined in JSON format. Files containing actor conditions should be named actorconditions_*<name>*.json, and placed under res/raw/ in the game source folder. The *<name>* can be anything composed of lower case letters, digits, and underscores.**
+Actor conditions are defined in JSON format. Files containing actor conditions should be named actorconditions_*\<name\>*.json, and placed under res/raw/ in the game source folder. The *\<name\>* can be anything composed of lower case letters, digits, and underscores.
 
 ![actor_condition](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/actor_condition.png)
 A single file can hold any number of actor conditions, as a list. Even if only one actor condition is defined in a file, it must be contained within a list.
@@ -769,7 +773,7 @@ Actor conditions, like all JSON-based content, is best created and edited using 
 
 ## Dialogues format.
 
-Dialogues are defined in JSON format. Files containing dialogues should be named conversationlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+Dialogues are defined in JSON format. Files containing dialogues should be named conversationlist_\<name\>.json, and placed under res/raw/ in the game source folder. The \<name\> can be anything composed of lower case letters, digits, and underscores.
 
 ![dialogue](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/dialogue.png)
 
@@ -817,8 +821,8 @@ A **dialogue** ***can*** have the following fields defined:
   - When "requireType" is "**spentGold**", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of gold that the player must have spent overall.
   - When "requireType" is "**consumedBonemeals**", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of bonemeal potions (all kind of bonemeals, including Lodar's) that the player must have consumed overall.
   - When "requireType" is "**hasActorConditions**", the "requireID" field must have a value matching an actor condition ID. The "value" property is unused. The requirement is fulfilled when the player is afflicted by the selected actor condition.
-  - When "requireType" is "**date**" or "**dateEquals**", the "requireID" field must be one of these format values: YYYYMMDD, YYYYMM, YYYY, MMDD, MM, DD. The "value" property is a an integer in the length of the uses format.
-  - When "requireType" is "**time**" or "**timeEquals**", the "requireID" field must be one of these format values: HHMMSS, HHMM, HH, MMSS, MM, SS. The "value" property is a an integer in the length of the uses format.
+  - When "requireType" is "**date**" or "**dateEquals**", the "requireID" field must be one of these format constants: YYYYMMDD, YYYYMM, YYYY, MMDD, MM, DD. The "value" property is a an integer in the length of the used format.
+  - When "requireType" is "**time**" or "**timeEquals**", the "requireID" field must be one of these format constants: HHMMSS, HHMM, HH, MMSS, MM, SS. The "value" property is a an integer in the length of the used format.
 
 
 - A **reward** ***must*** have the following fields defined:
@@ -852,6 +856,9 @@ To create a selector, simply create a dialogue with no "**message**" field, and 
 The game engine will evaluate the requirements of each reply, one after the other, in the order they are defined in the JSON file. The first reply for which all requirements are fulfilled is selected, and the script goes on to the dialogue indicated by the "nextPhraseID" field of the reply. It is often useful to also have the last reply with no requirements, to be used as the default.
 
 **Full example using all fields.**
+<details>
+<summary>Example dialogue - click to open</summary>
+
 ```
 {
     "id":"dialogue_id",
@@ -1014,13 +1021,13 @@ The game engine will evaluate the requirements of each reply, one after the othe
 }
 ```
 
-
+</details>
 
 
 
 ## Droplists format.
 
-**Droplists are defined in JSON format. Files containing droplists should be named droplists_*<name>*.json, and placed under res/raw/ in the game source folder. The *<name>* can be anything composed of lower case letters, digits, and underscores.**
+Droplists are defined in JSON format. Files containing droplists should be named droplists_*\<name\>*.json, and placed under res/raw/ in the game source folder. The *\<name\>* can be anything composed of lower case letters, digits, and underscores.
 
 ![ui_icon_equipment](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_equipment.png)
 A single file can hold any number of droplists, as a list. Even if only one droplist is defined in a file, it must be contained within a list.
@@ -1088,7 +1095,7 @@ Droplists, like all JSON-based content, is best created and edited using ATCS, b
 
 ## Items format.
 
-Items are defined in JSON format. Files containing items should be named itemlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+Items are defined in JSON format. Files containing items should be named itemlist_\<name\>.json, and placed under res/raw/ in the game source folder. The \<name\> can be anything composed of lower case letters, digits, and underscores.
 
 ![item](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/item.png)
 
@@ -1163,6 +1170,9 @@ Items, like all JSON-based content, is best created and edited using ATCS, but a
 
 
 **Full example using almost all fields.** The "**useEffect**" field dedicated to usable items, and missing in this example, has the same syntax as the "**killEffect**" field dedicated to equipment, as depicted below.
+<details>
+<summary>Example items - click to open</summary>
+
 ```
 {
     "id":"item_id",
@@ -1247,13 +1257,13 @@ Items, like all JSON-based content, is best created and edited using ATCS, but a
 }
 ```
 
-
+</details>
 
 
 
 ## Item categories format.
 
-Item categories are defined in JSON format. Files containing item categories should be named itemcategories_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+Item categories are defined in JSON format. Files containing item categories should be named itemcategories_\<name\>.json, and placed under res/raw/ in the game source folder. The \<name\> can be anything composed of lower case letters, digits, and underscores.
 
 ![equip_shield](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/equip_shield.png)
 
@@ -1289,7 +1299,7 @@ Item categories, like all JSON-based content, is best created and edited using A
 
 ## NPCs format.
 
-NPCs are defined in JSON format. Files containing NPCs should be named monsterlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+NPCs are defined in JSON format. Files containing NPCs should be named monsterlist_\<name\>.json, and placed under res/raw/ in the game source folder. The \<name\> can be anything composed of lower case letters, digits, and underscores.
 
 ![npc](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/npc.png)
 
@@ -1406,7 +1416,7 @@ NPCs, like all JSON-based content, is best created and edited using ATCS, but a 
 
 ## Quests format.
 
-Quests are defined in JSON format. Files containing quests should be named questlist_<name>.json, and placed under res/raw/ in the game source folder. The <name> can be anything composed of lower case letters, digits, and underscores.
+Quests are defined in JSON format. Files containing quests should be named questlist_\<name\>.json, and placed under res/raw/ in the game source folder. The \<name\> can be anything composed of lower case letters, digits, and underscores.
 
 ![ui_icon_quest](https://raw.githubusercontent.com/AndorsTrailRelease/ATCS/master/src/com/gpl/rpg/atcontentstudio/img/ui_icon_quest.png)
 

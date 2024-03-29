@@ -193,12 +193,12 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAesGEjTRwELAQhtA+SmmoWCAaBTawMDJtZEeqwgTVA+bWsEDYrkGaDsg8B6cOsxLkdBE4A7TzFQljdcT4izePD7+4WFuw0NoDPHGyAkR+7uLEcA4OpHGExfCAH6M5cIM4jEFY7iAwnZHfAwAkS9eID6GGHLyzRw2EHBwODlAQDgzQQy0hA+MSCq0C1WkA92kCsA8TXCOg9LEacucZ44gpXPOLTM9AAFB+FQFwEjZdiIF0iSHqapxZ4JEQbcyOBcXCOCmYfEsDPJwQek+CGhySolRYmzR20ANfIDF8AaN4hwQ==
+   eJxjYKAesGEjTRwELAQhtA8ONSDxzawIddjAGqD8WlYImxVIs0HZh4D0YVb8bkYGJ1gYGE6xEFZ3nI9I8/jwu7uFBTuNDeAzBxtg5McubizHwGAqR1gMH8gBujMXiPMIhNUOIsMJ2R0wcIJEvfgAetjhC0v0cNjBwcAgJcHAIA3EMhIQPrHgKlCtFlCPNhDrAPE1AnoPixFnrjGeuMIVj/j0DDQAxUchEBdB46UYSJcIkp7mqQUeCdHG3EhgHJyjgtmHBPDzCYHHJLjhIQlqpYVJcwctwDUywxcAfDogXg==
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYMANIuTwSOIBNmyoND5wWQxCz2FlYJgLxD5QPT5E6D0sRp77QGA7H3HqdmBRR4m9yHo5+SG0EJSO5EdV+xHJblA4XSLTXmq5F9ktxIgRay82dfTQiy08KQkrEEAPh20cCEwIzGWizG5qgEBBBoYgQQg7GEiHCBKvNxGoNgmqPhlIpxCpdyDS9kDYGSmH0LtJAFUOnY8NkOteUgC3MO3tGIwAAHWXJSA=
+   eJxjYMANIuTwSOIBNmyoND5wWQxCz2FlYJgLxD5QPTB6EytuvYfFyHMfCGznI07dDizqKLEXWS8nP4QWgtKR/KhqPyLZDQqnS2TaSy33IruFGDFi7cWmjh56sYUnJWEFAujhsI0DgQmBuUyU2U0NECjIwBAkCGEHA+kQQeL1JgLVJkHVJwPpFCL1DkTaHgg7I+UQejcJoMqh87EBct1LCuAWpr0dgxEAAAo1Jdc=
   </data>
  </layer>
  <layer id="23" name="Above1" width="15" height="30">
@@ -226,7 +226,7 @@
    eJxTk2NgUBvFo3gUj+JRjIJVB4EbYNhiELhhOGMAKvt3mg==
   </data>
  </layer>
- <objectgroup id="16" name="Mapevents">
+ <objectgroup id="16" name="Mapevents" visible="0">
   <object id="49" name="south2" type="mapchange" x="448" y="896" width="32" height="32">
    <properties>
     <property name="map" value="ratdom_maze_625"/>

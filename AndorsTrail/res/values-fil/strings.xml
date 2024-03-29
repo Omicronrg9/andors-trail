@@ -287,4 +287,6 @@
 \n
 \nUpang i-save at i-load ang iyong mga laro (at para lamang sa layuning ito) Andor\'s Trail ay hihilingin sa iyo na ma-access ang iyong storage."</string>
     <string name="dialog_permission_information_title">Loading and Saving games</string>
+    <string name="preferences_movement_dpad_positions_center_right">Gitnang Kanan</string>
+    <string name="preferences_movement_dpad_positions_center_left">Gitnang Kaliwa</string>
 </resources>

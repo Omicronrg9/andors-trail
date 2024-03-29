@@ -1452,6 +1452,16 @@
         "id":"ortholion_guard_selector",
         "replies":[
             {
+                "nextPhraseID":"ortholion_guard_0e",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":46
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"ortholion_guard_0a",
                 "requires":[
                     {
@@ -1980,6 +1990,16 @@
                 ]
             },
             {
+                "nextPhraseID":"ortholion_guard3_8",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":46
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"ortholion_guard3_1",
                 "requires":[
                     {
@@ -1999,7 +2019,7 @@
     },
     {
         "id":"ortholion_guard3_1b",
-        "message":"We soldiers of Feygard have come to this lonely place by direct command of General Ortholion, and don't have time to play with a kid."
+        "message":"We soldiers of Feygard have come to this lonely place by direct command of General Ortholion, and do not have time to waste talking to a kid."
     },
     {
         "id":"ehrenfest_3b",
@@ -3372,6 +3392,106 @@
         "id":"prim_tavern_guest4_selector",
         "replies":[
             {
+                "nextPhraseID":"capvjern_32c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":43
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"capvjern_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":56
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":18
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"capvjern_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":59
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":18
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"capvjern_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":18
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"capvjern_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":61
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":18
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"capvjern_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":62
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":18
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"capvjern_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":63
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":18
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"capvjern_22",
                 "requires":[
                     {
@@ -3773,7 +3893,7 @@
             },
             {
                 "text":"If you had an empty bottle with you, you could take some of this refreshing water with you.",
-                "nextPhraseID":"X",
+                "nextPhraseID":"bwm_wellspring_1a",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -4192,14 +4312,14 @@
     },
     {
         "id":"prim_tavern_guest4_36c",
-        "message":"Look, you should leave this be. Maybe this is too shady for a kid like you.",
+        "message":"Look, you should leave this be. This is too shady for a kid like you.",
         "replies":[
             {
                 "text":"I will discover the whole truth about this.",
                 "nextPhraseID":"prim_tavern_guest4_37a"
             },
             {
-                "text":"I'm determined to solve this, once and for all.",
+                "text":"I'm determined to solve this.",
                 "nextPhraseID":"prim_tavern_guest4_37d",
                 "requires":[
                     {
@@ -4811,7 +4931,7 @@
     },
     {
         "id":"prim_tavern_guest4_37d",
-        "message":"Hah! What about the shady guy you mentioned?",
+        "message":"What about that shady guy you mentioned?",
         "replies":[
             {
                 "text":"I no longer collaborate with him.",
@@ -5005,6 +5125,31 @@
     {
         "id":"prim_guard5_s",
         "replies":[
+            {
+                "nextPhraseID":"capvjern_41",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":43
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"capvjern_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":56
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":18
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"capvjern_22",
                 "requires":[
@@ -6494,7 +6639,7 @@
     },
     {
         "id":"elm2_passage2_1",
-        "message":"Fortunately, the torch is still burning, but unfortunately, the passage is still collapsed.",
+        "message":"Fortunately, the miner's lamp shines brightly. But unfortunately, the passage is still collapsed.",
         "replies":[
             {
                 "text":"Leave.",
@@ -6504,10 +6649,10 @@
     },
     {
         "id":"elm2_passage2_2",
-        "message":"Another pitch black tunnel. This one has an old, consumed torch on the wall.",
+        "message":"Another pitch black tunnel. This one has an old, consumed miner's lamp on the wall.",
         "replies":[
             {
-                "text":"Replace it with a burning torch.",
+                "text":"Add fuel to the miner's lamp.",
                 "nextPhraseID":"elm2_passage2_3",
                 "requires":[
                     {
@@ -6541,10 +6686,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"bwm72_beginning",
                 "value":23
-            },
-            {
-                "rewardType":"dropList",
-                "rewardID":"elm2_passage2"
             }
         ]
     },
@@ -6719,7 +6860,7 @@
     },
     {
         "id":"ortholion_guard3_4",
-        "message":"Our... mighty general has already caught that Shadow fanatic...Yes. Deep in the mine that's where he is. He's coming back...Probably.",
+        "message":"Our... mighty general has already caught that Shadow fanatic...Yes. Deep in the mine, that's where he is. He's coming back...Probably.",
         "replies":[
             {
                 "text":"Aha, so no idea. Thanks anyway.",
@@ -6811,15 +6952,15 @@
         "replies":[
             {
                 "text":"I'm not a threat, stop!",
-                "nextPhraseID":"F"
+                "nextPhraseID":"ortholion_guard7_10"
             },
             {
                 "text":"This one won't be my fault.",
-                "nextPhraseID":"F"
+                "nextPhraseID":"ortholion_guard7_10"
             },
             {
                 "text":"Hah! I spotted you, useless soldier!",
-                "nextPhraseID":"F"
+                "nextPhraseID":"ortholion_guard7_10"
             }
         ]
     },
@@ -8776,7 +8917,7 @@
     },
     {
         "id":"ortholion_9",
-        "message":"*looks at you* This is humillating. How did that guy...",
+        "message":"*looks at you* Humilliating. How did I...? How did that guy...?",
         "switchToNPC":"ortholion",
         "replies":[
             {
@@ -8791,7 +8932,7 @@
     },
     {
         "id":"ortholion_10b",
-        "message":"You might not be wrong at all... But this is no place to talk, full of these odd-looking creatures.",
+        "message":"I would duel you here and prove you wrong, but this is really no place to talk. These strange creatures don't cease to appear.",
         "replies":[
             {
                 "text":"N",
@@ -8811,7 +8952,7 @@
     },
     {
         "id":"ortholion_11",
-        "message":"This is humilating enough... I'll get out of this cave. I'll be at the mine entrance.",
+        "message":"Yes, yes... I'll get out of this cave. Meet me at the entrance of the mine. There is a large dining room. That will suffice.",
         "replies":[
             {
                 "text":"You are of no interest to me. Bye.",
@@ -8836,10 +8977,10 @@
     },
     {
         "id":"ortholion_12",
-        "message":"A knight's only trusted escorts are his sword and his horse. I'm pretty sure you'll find the way out.",
+        "message":"A knight's only trustworthy escorts are his sword and his horse. \n\n*gets up* I'm pretty sure you'll find the way out.",
         "replies":[
             {
-                "text":"This isn't a labyrinth, I will.",
+                "text":"I will.",
                 "nextPhraseID":"R"
             },
             {
@@ -9669,5 +9810,29 @@
                 "mapName":"elm5f_2"
             }
         ]
+    },
+    {
+        "id":"bwm_wellspring_1a",
+        "message":"An empty flask would be also OK. Just an empty vial would be a little bit to small.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm_wellspring_1b"
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring_1b",
+        "message":"A large bottle would be too heavy when filled with water, and soup bottles are unsuitable for this wonderfully fresh water.",
+        "replies":[
+            {
+                "text":"Oh come on.",
+                "nextPhraseID":"bwm_wellspring_1c"
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring_1c",
+        "message":"And no: you can't just empty a bottle and use it."
     }
 ]

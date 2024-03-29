@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="27">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="29">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -195,12 +195,12 @@
  </layer>
  <layer id="2" name="Objects" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJydlTFLw0AUx8+hgjYOGdRcYtCuVqHOVex30EFxEESFCjqbVutQECtFcHFwcVfwS/Q7OLqIgri46CKC73F35uVyMRf/8Gju5e733r17uTJmp0Mufve43fzAj5/ftDVZrIpjZlUJ61Gu6YaM9b0ka+DF7xcIa50La0rb4LGP2jlP5qd0DbEiOYfqWMZve0kflR6rSeLo0uMqdSD+SWh+3/bSvr9YF2H6fRZDZz0bmBHZTzOHo1gDrV7jgTA8w29fPNuoB/NbWv1v5f6QNYFcJxnPVpgX1n3GiVlD4J8OBK8bFmfSvCpybOqrPG3K+Xpv4TmsWtYuS7R/t4N07V4L5or6moI9Q72WSc0o94HH9ayVGKv7Yox+HCu9A6cM/hGwUUP9kflC8mvItU9c+BuExUKxV8qitWxl3FlZY120jqpPO+Tbq7qMzbtJlu+zXCG3R/I8AqsDZ4mwsA6zFiyUysG0pw8Yf4KNucxKAcybk/tSrCu55xLkM+zbs5RCwopIn+fdWVQHk8IUa4uL333pL6qyrDd+yys8vxdMWnSF0XNTrNOCd8uZnB+RnvhvXvfAWtP+CxWrBnfhnWVufXI+O7BmN0yyUJcF7qpfBthNkGbl6Qe4/Wzn
+   eJydlTFLw0AUx8+hgjYOGdRc4qFdrUKdq9jv4KI4CKJCBZ1Nq3UoiJUiuDh0cVfwS/Q7OLqIgri46CKC77g78u5yMZf+4ZHcy93vvXt5uRDiphMqrofUbX4UJvcfxposVsWzs6qI9SzXdBkh/UBnDYPk+QpibVFhTWnbNPFhu6J6fkoDiBXLOVhnMn470H1YZqwmimPKjKvUgfjnzP68HaR9/7GuWfp5FsNkvVqYMdpPM4ejWEOjXtORMP4Of0Nx76IezG8Z9b+X++OsGc719Hiu4nnxui94CWsM/POR4HVZcSbOqyLHtr7K046cb/ZWVl8VEe7fvShdu/cRYvzMwZ6hXuuoZpj7RJN61kqE1EMx5n4+VvoEThn8E2CTlvpz5hvKryHXvlDhbyAWYWKvmIVr2co4s7LGpnAdVZ920LdX9QlZ9nVWGJJccW4P5XkKVgfOGmLxOiw6sLhUDrY9fcH4G2zKJ06KYN6S3Jdi3co9lyCf8dCdpcQQK0Z9nndmYR3PClOsXSquR9JfVGVZb/4tb9D8XrBp1ReG35tiXRQ8Wy7l/Bj1xKh5PQJr0/gXKlYNzsIHx9z66P3sw5oDprO4bhzPeY0BdhelWXn6A4OSbHg=
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOxEsSqZAIkEdFs4YqqJbAFMvHEi7YxIgB2OKL3DgcCWYRa/5gMKsWS9oZrACWfn/KMDD8kqHMrHgKzHqMFv41gyAM82QH2gX4y5cKEtMsvjROTbNIBTCz8sUpMwcUVtSqu3qomP7mUSkdIaeFUKCZYRSYCwpzZDP6pSkzCx84DywLLhAoDwD6CRsi
+   eJxjYCAOxEsSqZAIkEdFs4YqqJbAFMvHEi7YxIgB2OKL3DgcCWYRa/5gMKsWS9qBgRBp6tlDDQBLvz9lGBh+yVBmVjwFZj1GC/8aPGFIL5AnO9AuwF++VJCYZvGlcWqaRSqAmZUvTpk5oLCiVt3VQ8X0N49K6Qg5LYQCzQyjwFxQmCOb0U9BuUQoLZwHlgUXCJQHAC+DG5E=
   </data>
  </layer>
  <layer id="4" name="Top" width="19" height="30">
@@ -210,10 +210,10 @@
  </layer>
  <layer id="5" name="Walkable" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdkssNACEIRG1ji7L/dva0ycYIzIeDkYSLwcfAMJ8xJpD/QOpPYnXGjq30i3SyrGzm6A1lsLpQvyqfWO+ze2B41W2x+hCWysxC1RdpdXLH6OAiWte3qi8bjkfff2XPri72jlBmNqPqfceM6L2ctPsbWGu9q8thvAjFlQU=
+   eJzdkksKwCAMRL1GD+X9r+NKKMWM85FSGshGkuckk3611om8B1P/JdbJWLGd/yqdKgvNXL2xDFUX69fOJ9V7dA8Kb3dbqj6G5TJRuPoqrUmuGKrHyl5Rr8JiIvFo9jt7TnWpd8Qy0YyO90hfco8J463d/4H1rE91JYwBVBCUnw==
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="160" y="928" width="160" height="32">
    <properties>
     <property name="map" value="blackwater_mountain13"/>
@@ -253,6 +253,7 @@
    </properties>
   </object>
   <object id="26" name="lead_bar" type="container" x="96" y="896" width="32" height="32"/>
+  <object id="28" name="elm2_passage2" type="container" x="352" y="512" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn" visible="0">
   <object id="10" name="ortholion_guard3a" type="spawn" x="128" y="768" width="96" height="32">
@@ -311,7 +312,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys">
+ <objectgroup id="8" name="Keys" visible="0">
   <object id="20" name="elm2_passage1" type="key" x="224" y="512" width="32" height="32">
    <properties>
     <property name="phrase" value="elm2_passage1"/>
@@ -321,6 +322,14 @@
    </properties>
   </object>
   <object id="21" name="elm2_passage2" type="key" x="352" y="512" width="32" height="32">
+   <properties>
+    <property name="phrase" value="elm2_passage2_s"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="23"/>
+   </properties>
+  </object>
+  <object id="27" name="elm2_passage2c" type="key" x="352" y="480" width="32" height="32">
    <properties>
     <property name="phrase" value="elm2_passage2_s"/>
     <property name="requireId" value="bwm72_beginning"/>

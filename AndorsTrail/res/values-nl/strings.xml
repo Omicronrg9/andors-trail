@@ -586,7 +586,7 @@
     <string name="startscreen_attention_message_slot_gets_delete_on_load">Dit spel laden verwijderd het opslagslot. Je zal het spel opnieuw moeten opslaan vooraleer te wisselen naar een ander spel.</string>
     <string name="startscreen_attention_slot_gets_delete_on_load">Aandacht</string>
     <string name="startscreen_error_loading_empty_slot">Kan niet laden van een leeg slot.</string>
-    <string name="startscreen_error_loading_game">Fout bij het laden van het spel.</string>
+    <string name="startscreen_error_loading_game">Fout bij het laden van het spel</string>
     <string name="startscreen_load_game_confirm">Het huidige spel is niet opgeslagen en je zal je karakter verliezen.</string>
     <string name="startscreen_load_game">Spel laden</string>
     <string name="startscreen_game_mode">Modus</string>
@@ -594,10 +594,35 @@
     <string name="combat_log_item_single">Je hebt iets gevonden:</string>
     <string name="heroinfo_one_life">Permadeath (1 leven)</string>
     <string name="heroinfo_unlimited_lives">Ongelimiteerde levens, 1 opslag</string>
-    <string name="heroinfo_unlimited_lives_and_saves">Standaard (onbeperkte levens en opslaan)</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Standaard 
+\n(onbeperkte levens en opslaan)</string>
     <string name="heroinfo_mode">Modus</string>
     <string name="rip_startscreen">(RIP)</string>
     <string name="dialog_game_over_text">Neem je laatste adem en sterf.</string>
     <string name="dialog_game_over_title">Game over</string>
     <string name="dialog_loading_failed_cheat">Andor\'s Trail kon geen opgeslagen spel laden. Dit opgeslagen spel werd reeds voortgezet.</string>
+    <string name="loadsave_importing_savegames">Opgeslagen spellen aan het importeren</string>
+    <string name="loadsave_export_info">Selecteer de map waarnaar alle bestanden moeten worden geëxporteerd.</string>
+    <string name="startscreen_migration_failure">Migratie opslaggegevens mislukt.</string>
+    <string name="loadsave_exporting_savegames">Opslaggegevens exporteren</string>
+    <string name="loadsave_import_worldmap_wrong_file">Weet je zeker dat je een wereldkaart hebt geselecteerd? Selecteer het zipbestand met de naam \'worldmap.zip\' dat naar je exportlocatie is geëxporteerd.</string>
+    <string name="startscreen_migration_text">Opslagdata aan het migreren.</string>
+    <string name="loadsave_import_error_unknown">Er is een onbekende fout opgetreden tijdens het importeren.</string>
+    <string name="loadsave_export_error_unknown">Er is een onbekende fout opgetreden tijdens het exporteren.</string>
+    <string name="loadsave_export_overwrite_confirmation">De doelmap bevat al bestanden met dezelfde naam als de bestanden die moeten worden geëxporteerd. Weet je zeker dat je deze bestaande bestanden wilt overschrijven?</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Bestaande bestanden overschrijven?</string>
+    <string name="loadsave_import_worldmap_info">Selecteer het zipbestand met de wereldkaart.</string>
+    <string name="loadsave_import_worldmap_successfull">Importeren van wereldkaart geslaagd</string>
+    <string name="loadsave_import_save_info">Selecteer alle opgeslagen spellen die je wilt importeren.</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Importeren van wereldkaart mislukt</string>
+    <string name="loadsave_export_successfull">Export geslaagd</string>
+    <string name="loadsave_export">Exporteer opgeslagen gegevens</string>
+    <string name="startscreen_migration_title">Migratie van gegevens</string>
+    <string name="loadsave_import_save_successfull">Importeren gelukt</string>
+    <string name="loadsave_export_unsuccessfull">Export mislukt</string>
+    <string name="loadsave_import_save">Opgeslagen spellen importeren</string>
+    <string name="loadsave_import_save_error_unknown">- overbodig -</string>
+    <string name="loadsave_import_save_unsuccessfull">Importeren mislukt</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- overbodig -</string>
+    <string name="loadsave_importing_worldmap">Wereldkaart aan het importeren</string>
 </resources>

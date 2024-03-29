@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -205,7 +205,7 @@
  </layer>
  <layer id="5" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlF0KwDAIg3uK3f8KvWGfCqPYaWJsJwyGlXzG/vSntX75W2OXV4Sl7fG8PqO+LC2kn6/aCFsVHlPFP3mGFOe2knVjpqoeqt6JDJuty7Cjuao7HPHN6pwM7/1ENda8t4bMTLW3zF3JslX39u/sdV0x65lDg2Fa/0omq6Pw+q5FNBgm6zOihzKybMSbcr8yc1VyEV8sd1dz2qtixpM9ANaDPTg=
+   eJzNlNENwCAIRJ2i+6/ghv3yx2CB4w57SZMGKQ8oOJ8x5uVn18nOkBXb43l5RuuyYmXy+fKNsFnymCx+5wwx5lbJutFTVg6qe6LCRv0q7KhNtcORutE4nfLuz2yM3e6dZXrG+rfIrlTZrL39O3s/Z/R62bJCmNY7k4nGYbJZO9k5m9Y3VSn2Lpqbgq2qOVMXyj35dNfK6PFivw5vPHE=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -223,7 +223,7 @@
   </object>
   <object id="3" name="fct_highwayman2" type="script" x="288" y="320" width="448" height="192"/>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="4" name="sullengard_highwayman" type="spawn" x="384" y="384" width="320" height="64">
    <properties>
     <property name="spawngroup" value="sullengard_highwayman"/>

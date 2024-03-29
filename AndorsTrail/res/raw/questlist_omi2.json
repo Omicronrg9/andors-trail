@@ -272,6 +272,10 @@
             {
                 "progress":42,
                 "logText":"\"Climbing up is forbidden\" finished."
+            },
+            {
+                "progress":43,
+                "logText":"Conversation with Jern & the Captain."
             }
         ]
     },

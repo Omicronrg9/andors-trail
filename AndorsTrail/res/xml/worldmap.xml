@@ -356,7 +356,7 @@
     <map id="waytobrimhavencave3" x="442" y="270"/>
     <map id="waytobrimhavencave4" x="318" y="270"/>
   </segment>
-  <segment id="world1" x="1" y="-52">
+  <segment id="world1" x="-59" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -687,7 +687,39 @@
     <map id="haunted_forest25" x="382" y="484"/>
     <map id="haunted_cemetery1" x="440" y="482"/>
     <map id="haunted_cemetery2" x="429" y="482"/>
-    <map id="ratdom_bwm1" x="137" y="355"/>
+    <map id="lake_shore_road_0" x="147" y="480"/>
+    <map id="lake_shore_road_1" x="168" y="480"/>
+    <map id="lake_shore_road_2" x="147" y="503"/>
+    <map id="lake_shore_road_4" x="192" y="511"/>
+    <map id="lake_shore_road_3" x="168" y="511"/>
+    <map id="lake_shore_road_5" x="147" y="524"/>
+    <map id="lake_shore_road_6" x="168" y="535"/>
+    <map id="lake_shore_road_7" x="189" y="535"/>
+    <map id="lake_shore_road_8" x="189" y="563"/>
+    <map id="lake_shore_road_9" x="189" y="580"/>
+    <map id="galmore_10a" x="158" y="586"/>
+    <map id="way_to_sullengard_west_0" x="220" y="580"/>
+    <map id="way_to_sullengard_west_1" x="220" y="606"/>
+    <map id="way_to_sullengard_west_2" x="220" y="665"/>
+    <map id="way_to_sullengard_west_3" x="220" y="634"/>
+    <map id="way_to_sullengard_west_4" x="246" y="665"/>
+    <map id="way_to_sullengard_west_5" x="272" y="665"/>
+    <map id="way_to_sullengard_west_6" x="285" y="686"/>
+    <map id="way_to_aidem_camp_1" x="518" y="655"/>
+    <map id="aidem_camp" x="518" y="629"/>
+    <map id="sullengard_hill_west" x="285" y="665"/>
+    <map id="lake_shore_road7a" x="217" y="535"/>
+    <map id="lake_shore_road_8a" x="220" y="563"/>
+    <map id="flagstone_filler_east_1" x="126" y="484"/>
+    <map id="flagstone_filler_east_2" x="126" y="503"/>
+    <map id="rat_mountain_1" x="126" y="517"/>
+    <map id="rat_mountain_2" x="126" y="531"/>
+    <map id="rat_mountain_3" x="126" y="545"/>
+    <map id="rat_mountain_4" x="152" y="545"/>
+    <map id="rat_mountain_5" x="168" y="556"/>
+    <map id="rat_mountain_6" x="152" y="562"/>
+    <map id="rat_mountain_7" x="126" y="562"/>
+    <map id="rat_mountain_8" x="126" y="586"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

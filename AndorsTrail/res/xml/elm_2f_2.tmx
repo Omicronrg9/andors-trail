@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="8" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="7">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="8" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="7">
  <tileset firstgid="1" name="map_bridge_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
@@ -182,27 +182,27 @@
  </tileset>
  <layer id="1" name="Ground" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJzzEWFg8AHiIDTsA8UwECGCimEApMYXiOPQcDgQe0PNCEYyDxl7Q/VGQvmhUkB9QCzHDsEweRi/FChXjkcehgWBWIgdYb8bmhpFIFZix3SPGxKGiQEActgWmg==
+   eAF9jjEKgDAQBNNZK1YWgj7GxtgoEm38hfh9dzEDYmFg2Nzt3iWxDiGK+YN7hrPp/oa+M5M4PiTVo7C/ZGUnat+ze/bXJoQk2uIBn/qUd/345ErNV4L3B+3Hs3aiF/wDdQ7o3XLYFpo=
   </data>
  </layer>
  <layer id="2" name="Objects" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYICAIBFU7CMCEfdBYsPACUns4viAohQDA7sMBE8E6r8ujSofzQShmYDqrkmjysP4xVCxF0D6BpI8iM8mgzCfQwZVHgTcgW6Vk4Sw/aQx5XEBACPdEao=
+   eAFjYICAIBEGBmTsA+SDAIiGsSEiDAwnJLGLw+Sx0YpSDAzsMhA8Eaj/ujSqqmgmCJ8JqO4aUA5ZHsYvhup5AaRvIOkH8dmgZoPs4ABiZHmQye5Af8gB7QUBPzT9EFHsJAAj3RGq
   </data>
  </layer>
  <layer id="3" name="Above" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFb/gZGN7xM+AEp4Byd7DIw/T9A8kJYMqji8eK4DYDBEIkEeLxIqhmCEsxMKRA5X2xmKMMlFeRwu0HEHDFog8bAAAIkQ40
+   eAFjYEAFb/gZGN4BMS5wCih3B4s8TN8/kJwApm508VgRTDUwM0AyIZII+XioWpgZwlIMDClQeV8s5igD5VWAGB9wxaIPm3oACJEONA==
   </data>
  </layer>
  <layer id="4" name="Top" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOFIvQTr4ZKNeERx6bXhEp4u2mBAAAj/wD/w==
+   eAFjYCAOFIvgV0eJfDPQ7CY85mMzW0QK4R5s8ghZylgAj/wD/w==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="8" height="9" visible="0">
+ <layer id="5" name="Walkable" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxLFGFgSKQTRgb45AjJ49OHTS829cS6GQAznRkk
+   eAFLFGFgSKQTZkAC6HYiScGZyGrggkAGLnGYGmR5dDYxapD1AAD1ehiv
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents" visible="0">
@@ -220,12 +220,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0"/>
- <objectgroup id="8" name="Keys" visible="0">
-  <object id="5" name="Object" type="key" x="192" y="128" width="32" height="32">
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys">
+  <object id="5" name="bwm72_beginning:33" type="key" x="192" y="128" width="32" height="32">
    <properties>
     <property name="phrase" value="elm2f2_chest"/>
     <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireNegation" value="false"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="33"/>
    </properties>

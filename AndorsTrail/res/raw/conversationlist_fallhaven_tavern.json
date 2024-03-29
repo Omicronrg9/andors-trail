@@ -155,6 +155,40 @@
         "id":"bela_gsnake",
         "replies":[
             {
+                "nextPhraseID":"bela_witch_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bela_gsnake",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":95,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":96,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"bela",
                 "requires":[
                     {

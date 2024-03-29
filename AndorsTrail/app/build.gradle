@@ -19,6 +19,7 @@ android {
         debug {
             manifestPlaceholders icon_name: 'icon_beta', fileproviderPath: 'AndorsTrail.beta2'
             applicationIdSuffix 'beta2'
+			signingConfig signingConfigs.debug
         }
     }
     namespace 'com.gpl.rpg.AndorsTrail'

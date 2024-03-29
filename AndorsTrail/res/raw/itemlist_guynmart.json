@@ -112,7 +112,7 @@
         "iconID":"items_armours:12",
         "name":"Guynmart shield",
         "hasManualPrice":1,
-        "baseMarketCost":0,
+        "baseMarketCost":1000,
         "category":"shld_mtl_li",
         "equipEffect":{
             "increaseAttackCost":0,
@@ -136,13 +136,15 @@
         "iconID":"items_books:7",
         "name":"Scroll of wisdom",
         "hasManualPrice":1,
-        "baseMarketCost":0,
+        "baseMarketCost":50,
         "category":"other"
     },
     {
         "id":"guynmart_doll",
         "iconID":"map_indoor_1:106",
         "name":"Old Teddy Bear",
+        "hasManualPrice":1,
+        "baseMarketCost":25,
         "category":"other"
     }
 ]

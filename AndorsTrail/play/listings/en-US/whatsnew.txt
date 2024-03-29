@@ -1,6 +1,107 @@
 I put both (release notes + forum announcement) into this source, so it will be easier to maintain them parallel:
 
 
+APK 75 (0.8.9)  Bugfix + translations
+
+Release notes
+=============
+* One or two skeletons for "Stoutford's old castle" could have been out of reach.
+* Some minor map fixes
+* Translations  (Chinese is 100% again!)
+
+
+Forum announcement  //2024-01-01
+==================
+Hello fellow adventurers,
+
+we have a bug fix + translation release for you, especially for those who have started the game in the current release and now find one or two of Erwyn's skeletons out of reach.
+Go into the hills near Colonel Lutarc, to the most north eastern place until you find some help.
+
+The dialogue at the well where you fetch some mountain water for Jern was made more clear.
+You get informed now which bottles work and which don't.
+
+And last but not least some translations grew again: Chinese is fully completed - 谢谢你!
+
+As always here is is the link on our server: [url]https://andorstrail.com/static/AndorsTrail_v0.8.9.apk[/url]
+
+Happy playing!
+
+
+
+APK 74 (0.8.8)  Sutdover River
+
+Release notes
+=============
+* New quest "Wanted Men"
+* New quest "A Wicked Witch"
+* Fix: Even if you help neither Prim nor BWM you can now start the "Lights in the dark" quest.
+
+
+Forum announcement  //2023-11-07
+==================
+Hello fellow adventurers,
+
+we have the new version ready for you now  8-)  (v0.8.8)
+
+It consists of more than 111 added or changed source files, 41 of which are new maps.
+(Funny that we had started to add Mt. Galmore to the game, but ended up with completely different things  :D )
+In any case, we had a lot of fun developing it and hope you have just as much fun playing it.
+
+[list]"Wanted Men": 
+A continuation of both "Another Ruthless Crackshot" and "Recovering Stolen Property", we again meet Sullengard's most wanted thieves far to the south east. They need your "skills" and you must decide the best path for you.
+[/list]
+[list]"A Wicked Witch": 
+After a "Giant Snake" is completed, visit our favorite innkeeper, Bela in Fallhaven for another adventure.
+[/list]
+[list]Good news for those who screwed up the Prim/Blackwater mountain quests: Even if you help neither party you can now get access to the throne room and start the "Lights in the dark" quest.
+[/list]
+[list]There are new texts in Arulir Mountains and during the "Climbing is forbidden" quest.
+[/list]
+[list]And as always some fixes of minor bugs and updates of the translations.
+[/list]
+
+
+Here is is the link on our server: [url]https://andorstrail.com/static/AndorsTrail_v0.8.8.apk[/url]
+Google Play, F-Droid and Itch will follow soon.
+
+Have fun!
+
+
+
+
+Forum announcement  BETA  //2023-11-11
+==================
+Hello fellow adventurers,
+
+we have a new beta for you! (v0.8.8 Sutdover River)
+
+It consists of more than 100 added or changed source files, 41 of which are new maps.
+(Funny that we had started to add Mt. Galmore to the game but ended up with completely different things  :D )
+In any case, we had a lot of fun developing it and hope you have just as much fun playing it.
+
+[list]"Wanted Men": 
+A continuation of both "Another Ruthless Crackshot" and "Recovering Stolen Property", we again meet Sullengard's most wanted thieves far to the east. They need your "skills" and you must decide the best path for you.
+[/list]
+[list]"A Wicked Witch": 
+After a "Giant Snake" is completed, visit our favorite innkeeper, Bela in Fallhaven for another adventure.
+[/list]
+[list]Good news for those who screwed up the Prim/Blackwater mountain quests: Even if you help neither party you can now get access to the throne room and start the "Lights in the dark" quest.
+[/list]
+[list]There are a few new texts in Arulir Mountains and for the "Climbing up is forbidden" quest.
+[/list]
+[list]And as always some fixes of minor bugs and updates of the translations.
+[/list]
+
+
+Here is is the link on our server: [url]https://andorstrail.com/static/AndorsTrail_v0.8.8_beta.apk[/url]
+
+It will be installed as an independent app so it won't affect your existing savegames. (Except maybe permadeath saves on Android versions < 10)
+Us usual please report any bugs or suggestions for improvements.
+
+Have fun trying!
+
+
+
 APK 73 (0.8.7)  Technical changes + Indonesian
 
 Release notes

@@ -765,7 +765,7 @@
     },
     {
         "id":"sullengard_mayor_5",
-        "message":"Thank you so much again, kid. You are just like your brother Andor.",
+        "message":"Thank you so much again, kid. You are just like your brother Andor. After we are done speaking, you really should speak with my assistant, Maddalena.",
         "replies":[
             {
                 "text":"Of course, he is my brother.",
@@ -1837,10 +1837,10 @@
     },
     {
         "id":"sullengard_nanette_10",
-        "message":"[Sigh]. I'm to old for a story. Just tell me the moral of it.",
+        "message":"[Sigh]. I'm too old for a story. Just tell me the moral of it.",
         "replies":[
             {
-                "text":"Don't throw pebbles in the pond. You might disturb whatever lies beneath the surface.",
+                "text":"Don't throw pebbles into the pond. You might disturb whatever lies beneath the surface.",
                 "nextPhraseID":"sullengard_nanette_11"
             }
         ]
@@ -3660,6 +3660,40 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"sullengard_zaccheria_ask_about_lt",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":57
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_zaccheria_ask_about_lt",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":80
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"sullengard_zaccheria_sell_0",
                 "requires":[
                     {
@@ -3826,7 +3860,7 @@
     },
     {
         "id":"sullengard_hidden_inventory_0",
-        "message":"[Under your feet you notice a freshly dug hole. It doesn't look like an animal has done this. Examine the hole?]",
+        "message":"Under your feet you notice a freshly dug hole. It doesn't look like an animal has done this. Examine the hole?",
         "replies":[
             {
                 "text":"Yes. Let's play in the dirt like Andor and I did when we were younger.",
@@ -3840,7 +3874,7 @@
     },
     {
         "id":"sullengard_hidden_inventory_10",
-        "message":"[Upon examination, it looks like some kind of sack has been stuffed down inside. Reach in and grab it out?",
+        "message":"Upon examination, it looks like some kind of sack has been stuffed down inside. Reach in and grab it out?",
         "replies":[
             {
                 "text":"Oh yeah! I've come this far already. There's no reason to stop.",
@@ -3854,7 +3888,7 @@
     },
     {
         "id":"sullengard_hidden_inventory_20",
-        "message":"[You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory.]",
+        "message":"You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3870,7 +3904,7 @@
     },
     {
         "id":"sullengard_hidden_inventory_taken",
-        "message":"[You have already examined this hole and looted all of it's contents.]",
+        "message":"You have already examined this hole and looted all of its contents.",
         "replies":[
             {
                 "text":"Oh, yeah. What a dummy I am.",
@@ -4525,6 +4559,16 @@
             {
                 "text":"[While holding back a smirk, you lie] Yes, why?",
                 "nextPhraseID":"crossglen_valentina_andor_25"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_25",
+        "message":"Don't you remember who lives there?",
+        "replies":[
+            {
+                "text":"Umm...no, no I don't.",
+                "nextPhraseID":"crossglen_valentina_andor_40"
             }
         ]
     },
@@ -6707,7 +6751,7 @@
     },
     {
         "id":"sullengard_cat_seeker_10",
-        "message":"He is entirely white. He looks look a freash coat of snow.",
+        "message":"He is entirely white. He looks look a fresh coat of snow.",
         "replies":[
             {
                 "text":"Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]",
@@ -6817,7 +6861,7 @@
     },
     {
         "id":"sullengard_town_clerk_0",
-        "message":"Hello. I am Maddalena, the the town hall clerk. If you are looking for Mayor Ale, he's back there trying to look busy.",
+        "message":"Hello. I am Maddalena, the town hall clerk. If you are looking for Mayor Ale, he's back there trying to look busy.",
         "replies":[
             {
                 "text":"N",
