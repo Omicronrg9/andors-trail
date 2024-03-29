@@ -31,6 +31,7 @@ public final class DebugInterface {
 	private DebugButton[] buttons;
 	private List<DebugButton> tpButtons  = new ArrayList<DebugButton>();
 	private List<DebugButton> tpButtons2 = new ArrayList<DebugButton>();
+	private List<DebugButton> tpButtons3 = new ArrayList<DebugButton>();
 
 	public DebugInterface(ControllerContext controllers, WorldContext world, MainActivity mainActivity) {
 		this.controllerContext = controllers;
@@ -56,6 +57,9 @@ public final class DebugInterface {
 							b.b.setVisibility(View.GONE);
 						}
 						for (DebugButton b : tpButtons2) {
+							b.b.setVisibility(View.GONE);
+						}
+						for (DebugButton b : tpButtons3) {
 							b.b.setVisibility(View.GONE);
 						}
 					}
@@ -242,11 +246,8 @@ public final class DebugInterface {
 				new DebugButton("teleport", new OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
-						for (int i = 0; i < buttons.length; i++) {
-							buttons[i].b.setVisibility(View.VISIBLE);
-						}
-						for (DebugButton tpButton : tpButtons) {
-							tpButton.b.setVisibility(View.GONE);
+						for (DebugButton tpButton : tpButtons3) {
+							tpButton.b.setVisibility(View.VISIBLE);
 						}
 						for (DebugButton tpButton : tpButtons2) {
 							tpButton.b.setVisibility(View.GONE);
@@ -301,7 +302,7 @@ public final class DebugInterface {
 				,new DebugButton("la1", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothisland1", "west", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothisland2", "south2", 0, 0);
 			}
 		})
 
@@ -312,6 +313,35 @@ public final class DebugInterface {
 			}
 		})
 
+				,new DebugButton("fey", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "guynmart_wood_17", "north", 0, 0);
+			}
+		})
+
+
+		}));
+		buttonList.addAll(tpButtons2);
+
+		tpButtons3.addAll(Arrays.asList(new DebugButton[] {
+				new DebugButton("teleport", new OnClickListener() {
+					@Override
+					public void onClick(View arg0) {
+						for (int i = 0; i < buttons.length; i++) {
+							buttons[i].b.setVisibility(View.VISIBLE);
+						}
+						for (DebugButton tpButton : tpButtons) {
+							tpButton.b.setVisibility(View.GONE);
+						}
+						for (DebugButton tpButton : tpButtons2) {
+							tpButton.b.setVisibility(View.GONE);
+						}
+						for (DebugButton tpButton : tpButtons3) {
+							tpButton.b.setVisibility(View.GONE);
+						}
+					}
+				})
 				,new DebugButton("#1", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -322,12 +352,34 @@ public final class DebugInterface {
 				,new DebugButton("#2", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothtomb1", "north", 0, 0);
+			}
+		})
+
+
+				,new DebugButton("#3", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
 				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "mountainlake8", "north", 0, 0);
 			}
 		})
 
+				,new DebugButton("#4", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waterway5", "south", 0, 0);
+			}
+		})
+		
+				,new DebugButton("#5", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island1", "south2", 0, 0);
+			}
+		})
+
 		}));
-		buttonList.addAll(tpButtons2);
+		buttonList.addAll(tpButtons3);
 
 		buttons = buttonList.toArray(new DebugButton[buttonList.size()]);
 		addDebugButtons(buttons);
@@ -336,6 +388,9 @@ public final class DebugInterface {
 			b.b.setVisibility(View.GONE);
 		}
 		for (DebugButton b : tpButtons2) {
+			b.b.setVisibility(View.GONE);
+		}
+		for (DebugButton b : tpButtons3) {
 			b.b.setVisibility(View.GONE);
 		}
 	}
