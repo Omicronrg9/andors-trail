@@ -9,6 +9,8 @@
         <item>@raw/itemcategories_brimhaven</item>
         <!--Added by ATCS v0.6.18 for project ratdom-->
         <item>@raw/itemcategories_ratdom</item>
+        <!--Added by ATCS v0.6.20 for project mt_galmore-->
+        <item>@raw/itemcategories_mt_galmore</item>
     </array>
         
     <array name="loadresource_actorconditions">
@@ -40,6 +42,8 @@
         <item>@raw/actorconditions_omi2</item>
         <!--Added by ATCS v0.6.18 for project haunted_forest-->
         <item>@raw/actorconditions_haunted_forest</item>
+        <!--Added by ATCS v0.6.20 for project mt_galmore-->
+        <item>@raw/actorconditions_mt_galmore</item>
     </array>
         
     <array name="loadresource_items">
@@ -101,6 +105,8 @@
         <item>@raw/itemlist_haunted_forest</item>
         <!--Added by ATCS v0.6.18 for project ratdom-->
         <item>@raw/itemlist_ratdom</item>
+        <!--Added by ATCS v0.6.20 for project mt_galmore-->
+        <item>@raw/itemlist_mt_galmore</item>
     </array>
         
     <array name="loadresource_droplists">
@@ -151,12 +157,12 @@
         <item>@raw/droplists_v0715</item>
         <!--Added by ATCS v0.6.18 for project sullengard-->
         <item>@raw/droplists_sullengard</item>
-        <!--Added by ATCS v0.6.18 for project next_release-->
-        <item>@raw/droplists_next_release</item>
         <!--Added by ATCS v0.6.18 for project haunted_forest-->
         <item>@raw/droplists_haunted_forest</item>
         <!--Added by ATCS v0.6.18 for project ratdom-->
         <item>@raw/droplists_ratdom</item>
+        <!--Added by ATCS v0.6.20 for project mt_galmore-->
+        <item>@raw/droplists_mt_galmore</item>
     </array>
         
     <array name="loadresource_quests">
@@ -207,6 +213,8 @@
         <item>@raw/questlist_haunted_forest</item>
         <!--Added by ATCS v0.6.18 for project ratdom-->
         <item>@raw/questlist_ratdom</item>
+        <!--Added by ATCS v0.6.20 for project mt_galmore-->
+        <item>@raw/questlist_mt_galmore</item>
     </array>
         
     <array name="loadresource_conversationlists">
@@ -407,11 +415,12 @@
         <item>@raw/conversationlist_sullengard</item>
         <!--Added by ATCS v0.6.18 for project haunted_forest-->
         <item>@raw/conversationlist_haunted_forest</item>
-        <!--Added by ATCS v0.6.18 for project next_release-->
-        <item>@raw/conversationlist_next_release</item>
         <!--Added by ATCS v0.6.18 for project ratdom-->
         <item>@raw/conversationlist_ratdom</item>
         <item>@raw/conversationlist_ratdom_npc</item>
+        <!--Added by ATCS v0.6.20 for project mt_galmore-->
+        <item>@raw/conversationlist_mt_galmore</item>
+        <item>@raw/conversationlist_omifix2</item>
     </array>
         
     <array name="loadresource_monsters">
@@ -469,12 +478,12 @@
         <!--Added by ATCS v0.6.18 for project sullengard-->
         <item>@raw/monsterlist_hilltown</item>
         <item>@raw/monsterlist_sullengard</item>
-        <!--Added by ATCS v0.6.18 for project next_release-->
-        <item>@raw/monsterlist_next_release</item>
         <!--Added by ATCS v0.6.18 for project haunted_forest-->
         <item>@raw/monsterlist_haunted_forest</item>
         <!--Added by ATCS v0.6.18 for project ratdom-->
         <item>@raw/monsterlist_ratdom</item>
+        <!--Added by ATCS v0.6.20 for project mt_galmore-->
+        <item>@raw/monsterlist_mt_galmore</item>
     </array>
         
     <array name="loadresource_maps">
@@ -1357,6 +1366,48 @@
         <item>@xml/ratdom_maze_666</item>
         <item>@xml/ratdom_maze_705</item>
         <item>@xml/ratdom_maze_768</item>
+        <!--Added by ATCS v0.6.20 for project mt_galmore-->
+        <item>@xml/aidem_base_1</item>
+        <item>@xml/aidem_base_2</item>
+        <item>@xml/aidem_camp</item>
+        <item>@xml/flagstone_filler_east_1</item>
+        <item>@xml/flagstone_filler_east_2</item>
+        <item>@xml/galmore_10a</item>
+        <item>@xml/galmore_train_cave</item>
+        <item>@xml/lake_shore_road7a</item>
+        <item>@xml/lake_shore_road_0</item>
+        <item>@xml/lake_shore_road_1</item>
+        <item>@xml/lake_shore_road_2</item>
+        <item>@xml/lake_shore_road_3</item>
+        <item>@xml/lake_shore_road_4</item>
+        <item>@xml/lake_shore_road_5</item>
+        <item>@xml/lake_shore_road_6</item>
+        <item>@xml/lake_shore_road_7</item>
+        <item>@xml/lake_shore_road_8</item>
+        <item>@xml/lake_shore_road_8a</item>
+        <item>@xml/lake_shore_road_9</item>
+        <item>@xml/rat_mountain_1</item>
+        <item>@xml/rat_mountain_2</item>
+        <item>@xml/rat_mountain_3</item>
+        <item>@xml/rat_mountain_4</item>
+        <item>@xml/rat_mountain_5</item>
+        <item>@xml/rat_mountain_6</item>
+        <item>@xml/rat_mountain_7</item>
+        <item>@xml/rat_mountain_8</item>
+        <item>@xml/sullengard_hill_west</item>
+        <item>@xml/thieves_vault</item>
+        <item>@xml/thieves_vault_tunnel</item>
+        <item>@xml/way_to_aidem_camp_1</item>
+        <item>@xml/way_to_sullengard_west_0</item>
+        <item>@xml/way_to_sullengard_west_1</item>
+        <item>@xml/way_to_sullengard_west_2</item>
+        <item>@xml/way_to_sullengard_west_3</item>
+        <item>@xml/way_to_sullengard_west_4</item>
+        <item>@xml/way_to_sullengard_west_5</item>
+        <item>@xml/way_to_sullengard_west_6</item>
+        <item>@xml/wild6_house_basement</item>
+        <item>@xml/witch_house</item>
+        <item>@xml/witch_house_basement</item>
     </array>
         
 </resources>

@@ -208,6 +208,66 @@
                 ]
             },
             {
+                "nextPhraseID":"blackwater_throneguard_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":250
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_hunt",
+                        "value":250
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blackwater_throneguard_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":250
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_hunt",
+                        "value":251
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blackwater_throneguard_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":251
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_hunt",
+                        "value":250
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blackwater_throneguard_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":251
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_hunt",
+                        "value":251
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"blackwater_throneguard_1"
             }
         ]
@@ -276,6 +336,54 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"blackwater_throneguard_2"
+            }
+        ]
+    },
+    {
+        "id":"blackwater_throneguard_10",
+        "message":"Hey, psst.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"blackwater_throneguard_11"
+            },
+            {
+                "text":"If you want to say something, speak loudly.",
+                "nextPhraseID":"blackwater_throneguard_1"
+            }
+        ]
+    },
+    {
+        "id":"blackwater_throneguard_11",
+        "message":"Harlenn is a wise and strong leader, but unfortunately just as stubborn as Guthbered.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blackwater_throneguard_12"
+            }
+        ]
+    },
+    {
+        "id":"blackwater_throneguard_12",
+        "message":"Thank you for not inciting the argument any further. Maybe someday there will be something like peace again.",
+        "replies":[
+            {
+                "text":"I wish it for you. Can I go in here?",
+                "nextPhraseID":"blackwater_throneguard_13"
+            }
+        ]
+    },
+    {
+        "id":"blackwater_throneguard_13",
+        "message":"OK. I trust you not to do any mischief.",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"blackwater_throneguard_2"
+            },
+            {
+                "text":"[Lie] Sure.",
                 "nextPhraseID":"blackwater_throneguard_2"
             }
         ]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="10">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="14">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,30 +182,30 @@
  </tileset>
  <layer id="1" name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eAGFkztOA0EQRFcQIQEBEWQQk3EGzsCRCDgDV8B8LAgg4E+CCGxzAYwPQj17nhitdm1LpZ6d6a7q6hkP1ppm0IP99aYRR1n3oa++a/8pWsAz+Q/Cf7wEj1WNtV3xMnnjgroGHTROlmCUOmrs0djWQWNWQM1FQI4ap9How85u01Bjj0Y51EJjuPEP++IcHzX/dr6Be6+bizp7NK7SsC/y8CKvcyA+g/C/BzctDPNdz1wv+pjlnDX96EdO50CcFI2X5IPDfLvGWz1zNOiJGnWM+pHTORDJwYe8xnH2JmXfefXxqyOv38br8NwGcIrzaNegf+6a/umBGjyiPX9nWctnZI6/ZV8PcjrzdoRL/o/UomEOtXITvaerso+Gs7DGyP25RoP+5Wf+7Xt+yzkaelulwey5P98VdaNw3AV4gKt9z2ioe5Z8OPRX+/DtMXvu0HeFBp6B/c7nUvJYs9/WbWvA49uzhujdqsF7s3aatcAjd9b1vvSHN87vk/cQfAdqcC/88Okd64e5APh5m2jxn7YPov78b+1tLd6GtfDjkR8+9dWeDb36PtGrNfT3mf1Z8BOoW3M6A7jwjIa13h1n9lRrMF+4vwLnxLmc9o02/yv08YwGe9Oy70zMn3PkTG9Ec/FjLXvU0Fudu2xd+7CWPdFVy9kfUOVgDw==
+   eJyNlD9SwkAUxpm1cma1sNIOazu9gmfwSBacgSuEiIwptAhgtGEsQrwAyEHcnbyP/fKySWDmNwSS9337/mVmRqNZB+OzwH0PXfExloL2uHU89pCfqJ86tkKufLzHUw+lxCwVMY+D4GMS5fHcw9V1HbNVJBGPxXkgp7Noj0sBvz9tHXMwTYY8SjrLWDS5Z54H99/K6X85XhULG+8T9A90Lq7zStWiMrXHWrgz4drnVqpcVhLDuXA+0ORa+PvsAbaOSq6TAf1jXqTJzJ3Gm2iCqWmCPlSS41xyTDBnNuLn/vuzzRxYr2svoP8tHrg3NW19//1CddKzw/vMHqyv98nXsRBt5DbkgdnIyaN0z2Y2zLnuc2GD70Q0kFuizo7e8i6nMn+ewsb7XNi2r/ZI1T1oaY+KPPY2kElvY/OV0/n9vXf33Ifj1zbP4D9L6jHOMJHaYOYz2enY/uD8Nxd1zxCLHP0H743UtGuT07yvlQfy29hae6dij3tgwnsDc8S1wazF3muVaP/YUCfuJzx2slclzdFOeoF94xnBrvA+49kNxe5ptvX+d8F5xPaiK+YfwBVgIQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eAGVlMsuREEQhjtkFohMhriGhbGwk/AKXsNGvAEPId6ACIkHQIKlFdtZugUbt0lcNjaS2fk/c/4onTkJf1Kn+1RX/XXpOielcqyPpDTc9SNllgey+yvgi1iT72aIE89Oa/GtncdvzW9dzh1tqQXURlMalEQcZnHiWdl+QnUslNTyOdT22lPM/UweM5+cP9YwO5DSZTWl6MO5a6E//d0pbSgGUtUefGhvnyPZ9IaY5vfa9kjpKusB92Je7tcc1FRX/6YlN9rfSu4kD+SacTjG2bCjtPNa6pAPFuNBT93gRNygUaxDwcb8XsnhRQKOQy4+R89+UvIsaSqvF8mruN8k75ILxV2s/PQPH7Bc+LDf0n5bAujzQLGH80kcTQmYEden+FtF/fjliLnhT/7UYf2ucgHoInYCF7y2x4a9xT68w2+sZzaup6U4cDMP5rwuejklfT3zM5/XRpZnj+wN+CoSYgD6nGNO5/OSmD8zbDgn94X+j0k6IXLcKyZ3A6xnps3HTBjWMWsINfl7wsZ9XAk+9vVqDs80PuRsHs75fum179aza1+4bM+MOa5jePUZ30z8l5mHFfEdx7u3jjrJw//c6Esc5xh9zes88vdc7xxYaxLmyvV1qo3/hDn7tAd+Z8V3tdDnZ9/G4YF9hOPSO3Ny7pk8lz7OXfwnRHt/e9a5n3A5Jr3z+X/X//p+AeDxcxc=
+   eJydVL1KA0EQXi5cYUTCneQSxRTGwk7QV/A10gTfQB8i5A2UECEPEIXE0krblP6hNv4FojY2gXTOx+5wk7mfoAPD7e3szHzfzOwaky3tijGRF2uWnFdygijRcVrke1JJz3EV5PvqvTyMbYcxqBqzWp23DYLk+UWyQbn2M7hMy/a/T+szpW85GCGSw05ozF1p3gd25oL6rBSMOa5YLRXs/o/IM6QzxZQa6Vrdqxq0XExgRn8Ro+vy1ql+W6SP9P9E+kz6CqwZ/bqO4j3gaub0rO/ygTfk0uUcuW85hwswTEK7vgiS53hdI/0gHROuCeknxf4i/Sa9pbwNP9mnA+cD6aAWXswndGvY3ynG2GHdplhTij+LYj8tEhv8gR88eL/nx9yknAq/jpfkqO9TJPBD2uoM85mFNjbmgW0Prpab9F9f8B6MFM4lhcH3bA5Iw0/675J9T+UYpvSS64L6r2VgkTFeQtsbuV8U9lrKXGHWoOAk54HreJhzlznGupiNnpgr2HF/UWvuLc+urC2fD1X/pLANd2aQUivmyz2Wve8KrsDBb27a3dK+aTOW9UbLfPgGnp0r5pfGrSn8lr1kLPgeLZh7XQsWWVfpwzN5483PXUP1js93vCQ/nZPv83/0r76/hSV0iw==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eAHVUsENwkAMOzFEdy6MwAxMwQQtC1GrtRRZTq6HeEA+aeLE9t21td+J5/QdLxVPhY2oVzwV9k8amdfX4DvdLhnT3p82XO9M65qhNXjq+VLOdeAc4MY+d+DZBXGHVT3l52x2pkyfey5H/w53vUzfzaKnd6xz4Lsfd0fu3o7iWquGw12Pe/ChuNacZXbv7HbYQ9Yd9M6+47LNIpQDPWo47Br+07Na4NSgxhz4OLNKj+9KPObKg/oH7+Pgpj65tGafufLAGWTeK76VU2vMxOjhcfbT71GNN6ECN8U=
+   eJzdksEJgDAMRaVDVHBjdQARF9CDUziBupDNodiGNGmKghgoSJq8/xtTVd+Jzb7P+ZvGUN+5saZrSzUwc3bfizun8n294e+BCT6aoE47Q/Ak+cLMQ6EBbOj3PTbxJg2T44d5KlL6XFD8HF9aDYk3mZgt9eB7bb3U42ev0aDmyOlSs4dc7n/craxL3XUBv2RnsEZLMA6U43aG84D9A3c1sT72k4rcvd2Duif27OnQalxHOzwW
   </data>
  </layer>
  <layer id="4" name="Top" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAsMxBMSYaO+rw2K0swPmflraQTvX099kAJ1SAeM=
+   eJxjYBgFo2AUjIJRMByBGBPt7TgsRjuzYe6npR3DCQAAnVIB4w==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eAHtkFEKg1AMBD1F738Fb1iCDA5LklboZx9oNtnZPPF8Hcf5f376D47lPPnXrOkykzfNux0185mYnDuTOll6OPpPFb6rUzbZiWOevHuYrMUws/bMe6xhtgoPQ5+1fA7sN3XLlMcO9MbDZt0y7K0M+lL33bkve3jynd/NJj7Z6n0mP+dkck5fProq/aX6t3ky5CbPvjX5LeevMDfNu515p/eYT4474N13LFxXyU6VjPfC2mNmzj7a1Rm0/Se6u3fLvwEjFhWT
+   eJztklEKQCEIBDtF979CN3z/i/rGJaKPBKEynNZ2zTHWy61ZhdOnU+tynLc5+k4yKMtlROtdf693q16dvtRTur6R8TfT6PwGhtZUfxTd2Wo9YxLP0nkQRqabeN9lVJH5MdpT3RWb+o4ysvwAIxYVkw==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents" visible="0">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="down" type="mapchange" x="320" y="96" width="32" height="32">
    <properties>
     <property name="map" value="mywildcave4"/>
@@ -220,37 +220,36 @@
   </object>
   <object id="3" name="gison_bottle_4" type="script" x="384" y="352" width="32" height="32"/>
   <object id="4" name="gison_bottle_5" type="script" x="704" y="416" width="32" height="32"/>
-  <object id="6" name="gison_bottle_6" type="script" x="256" y="576" width="32" height="32"/>
-  <object id="5" name="gison_bottle_7" type="script" x="64" y="576" width="32" height="32"/>
+  <object id="5" name="gison_bottle_6" type="script" x="256" y="576" width="32" height="32"/>
+  <object id="6" name="gison_bottle_7" type="script" x="64" y="576" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="8" name="Spawn" visible="0">
-  <object id="4" name="stoneworm1" type="spawn" x="608" y="416" width="128" height="128">
+ <objectgroup id="7" name="Spawn" visible="0">
+  <object id="7" name="stoneworm1" type="spawn" x="608" y="416" width="128" height="128">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="stoneworm1"/>
    </properties>
   </object>
-  <object id="5" name="stoneworm2" type="spawn" x="32" y="160" width="544" height="416">
+  <object id="8" name="stoneworm2" type="spawn" x="32" y="160" width="544" height="416">
    <properties>
     <property name="quantity" value="5"/>
     <property name="spawngroup" value="stoneworm2"/>
    </properties>
   </object>
-  <object id="7" name="stoneworm3" type="spawn" x="512" y="128" width="64" height="32">
+  <object id="9" name="stoneworm3" type="spawn" x="512" y="128" width="64" height="32">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="stoneworm3"/>
    </properties>
   </object>
-  <object id="8" name="stoneworm31" type="spawn" x="704" y="224" width="32" height="32">
+  <object id="10" name="stoneworm31" type="spawn" x="704" y="224" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
-    <property name="quantity" value="1"/>
     <property name="spawngroup" value="angry_stoneworm"/>
    </properties>
   </object>
-  <object id="9" name="stoneworm32" type="spawn" x="736" y="512" width="64" height="64">
+  <object id="11" name="stoneworm32" type="spawn" x="736" y="512" width="64" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
@@ -259,8 +258,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys" visible="0">
-  <object id="13" name="trap32" type="key" x="736" y="544" width="32" height="32">
+ <objectgroup id="8" name="Keys" visible="0">
+  <object id="12" name="trap32" type="key" x="736" y="544" width="32" height="32">
    <properties>
     <property name="phrase" value="mywildcave_trap32"/>
     <property name="requireId" value="base_nondisplay"/>
@@ -268,7 +267,7 @@
     <property name="requireValue" value="2"/>
    </properties>
   </object>
-  <object id="14" name="trap31" type="key" x="704" y="224" width="32" height="32">
+  <object id="13" name="trap31" type="key" x="704" y="224" width="32" height="32">
    <properties>
     <property name="phrase" value="mywildcave_trap31"/>
     <property name="requireId" value="base_nondisplay"/>

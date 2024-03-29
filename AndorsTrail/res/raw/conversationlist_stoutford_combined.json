@@ -2186,6 +2186,23 @@
             {
                 "text":"Nice to see you happy again.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you happen to sell empty bottles?",
+                "nextPhraseID":"stoutford_widow2_10_b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -2380,6 +2397,23 @@
             {
                 "text":"Maybe later.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you happen to sell empty bottles?",
+                "nextPhraseID":"stoutford_widow2_10_b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -2550,6 +2584,23 @@
             {
                 "text":"No, thank you.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you happen to sell empty bottles?",
+                "nextPhraseID":"stoutford_widow2_10_b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -11762,5 +11813,14 @@
     {
         "id":"erwyn_skel_band",
         "message":"Please don't disturb. We have to practice."
+    },
+    {
+        "id":"stoutford_widow2_10_b",
+        "message":"No, unfortunately not. Maybe try my colleague in Fallhaven?",
+        "replies":[
+            {
+                "text":"Sigh - well, thanks."
+            }
+        ]
     }
 ]

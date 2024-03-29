@@ -313,7 +313,7 @@
     <string name="skill_prerequisite_other_skill">Um diesen Skill zu erlernen, wird mindestens die %1$d. Stufe des Skills %2$s benötigt.</string>
     <string name="skill_prerequisite_level">Um diesen Skill zu erlernen, wird mindestens das Erfahrungslevel %1$d benötigt.</string>
     <string name="skill_prerequisite_stat">Um diesen Skill zu erlernen, werden mindestens %1$d %2$s benötigt (Basiskampfeigenschaften).</string>
-    <string name="skill_number_of_increases_one">Du kannst eine Fähigkeit verbessern. Fähigkeitspunkte bleiben bis zu ihrer Benutzung gespeichert.</string>
+    <string name="skill_number_of_increases_one">Du kannst eine Fähigkeit verbessern. Die Punkte hierfür verfallen nicht.</string>
     <string name="skill_number_of_increases_several">Du kannst %1$d Fähigkeiten verbessern.</string>
     <string name="levelup_adds_new_skillpoint">In diesem Level erhältst du einen neuen Skillpunkt!</string>
     <string name="loadsave_save_to_new_slot">Neuen Speicherplatz anlegen</string>

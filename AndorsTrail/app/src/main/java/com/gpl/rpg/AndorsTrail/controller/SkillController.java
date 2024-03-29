@@ -1,5 +1,6 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
+import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.listeners.CombatActionListeners;
@@ -17,6 +18,7 @@ import com.gpl.rpg.AndorsTrail.model.item.ItemCategory;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.util.ConstRange;
+import com.gpl.rpg.AndorsTrail.util.L;
 
 public final class SkillController {
 	private final ControllerContext controllers;
@@ -58,6 +60,9 @@ public final class SkillController {
 
 	public static int getDropChanceRollBias(DropItem item, Player player) {
 		if (player == null) return 0;
+		if(item.itemType == null && AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES){
+			L.log("Item type missing: " + item + " " + player.id);
+		}
 
 		if (ItemTypeCollection.isGoldItemType(item.itemType.id)) {
 			return getRollBias(item, player, SkillID.coinfinder, SkillCollection.PER_SKILLPOINT_INCREASE_COINFINDER_CHANCE_PERCENT);

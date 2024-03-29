@@ -39,6 +39,12 @@ public final class DropListParser extends JsonCollectionParserFor<DropList> {
 			if (items == null) {
 				L.log("OPTIMIZE: Droplist \"" + droplistID + "\" has no dropped items.");
 			}
+			for (int i = 0; i < items.length; i++) {
+				DropItem item = items[i];
+				if (item.itemType == null) {
+					L.log("Item at index " + i + " in droplist " + droplistID + " was null");
+				}
+			}
 		}
 
 		return new Pair<String, DropList>(droplistID, new DropList(items));

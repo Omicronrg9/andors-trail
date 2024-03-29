@@ -216,7 +216,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="duleian_hornet_sapwn1" type="spawn" x="32" y="0" width="96" height="160">
+  <object name="duleian_hornet_sapwn1" type="spawn" x="32" y="0" width="96" height="192">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="duleian_hornet"/>
@@ -235,14 +235,12 @@
   </object>
   <object name="yelllow_tooth_spawn" type="spawn" x="512" y="96" width="64" height="64">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="yellow_tooth"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
    </properties>
   </object>
   <object name="yellow_tooth_spawn2" type="spawn" x="576" y="160" width="32" height="160">
    <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="yellow_tooth"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
    </properties>
   </object>
  </objectgroup>

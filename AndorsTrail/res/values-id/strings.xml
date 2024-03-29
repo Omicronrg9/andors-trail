@@ -3,7 +3,7 @@
     <string name="app_name">Andor’s Trail</string>
     <string name="exit_to_menu">Keluar ke menu</string>
     <string name="menu_settings">Preferensi</string>
-    <string name="menu_save">Simpan</string>
+    <string name="menu_save">Menyimpan</string>
     <string name="menu_save_gamesaved">Permainan telah disimpan pada slot %1$d</string>
     <string name="menu_save_failed">Gagal menyimpan permainan! Apakah kartu SD sudah terpasang dan dapat ditulis\?</string>
     <string name="loadsave_title_save">Simpan permainan</string>

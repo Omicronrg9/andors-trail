@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="exit_to_menu">الخروج للقائمة الرئيسية</string>
+    <string name="exit_to_menu">الخروج إلى القائمة الرئيسية</string>
     <string name="menu_settings">التفضيلات</string>
     <string name="menu_save">حفظ</string>
     <string name="loadsave_title_save">حفظ اللعبة</string>
@@ -38,8 +38,8 @@
     <string name="dialog_newversion_title">مرحباً</string>
     <string name="localize_resources_from_mo_filename">ar.mo</string>
     <string name="app_name">على خطى اندور</string>
-    <string name="app_description">لعبة أدوار تحركها مهام</string>
-    <string name="menu_save_gamesaved">حفظ الملف للخانة %1$d</string>
+    <string name="app_description">لعبة أدوار خيالية تحركها مهام</string>
+    <string name="menu_save_gamesaved">تم حفظ اللعبة في الخانة %1$d</string>
     <string name="menu_save_failed">فشل حفظ اللعبة! هل ركبت بطاقة ذاكرة قابلة للكتابة؟</string>
     <string name="loadsave_title_load">فتح ملف الحفظ</string>
     <string name="savegame_currenthero_displayinfo">المستوى %1$d، الخبرة %2$d، الذهب %3$d</string>
@@ -626,14 +626,14 @@
     <string name="loadsave_import_worldmap">تحميل خريطة العالم</string>
     <string name="loadsave_import_worldmap_successfull">نجح تحميل خريطة العالم</string>
     <string name="loadsave_import_worldmap_unsuccessfull">فشل تحميل خريطة العالم</string>
-    <string name="loadsave_import_save_error_unknown">حدث خطأ غير معروف أثناء الاستيراد.</string>
+    <string name="loadsave_import_save_error_unknown">- مهجور -</string>
     <string name="loadsave_import_file_exists_question">توجد بالفعل لعبة محفوظة في الفتحة المستهدفة. هل تريد الاحتفاظ بالنسخة الموجود ، أو الكتابة فوقها باللعبة المستورد أو استيراد الحفظ إلى الفتحة؟
 \n
 \n%1$s
 \n
 \n%2$s</string>
     <string name="loadsave_export_overwrite_confirmation">يحتوي المجلد الهدف على ملفات موجودة بنفس اسم بعض الملفات التي يجب تصديرها. هل أنت متأكد أنك تريد الكتابة فوق هذه الملفات؟</string>
-    <string name="loadsave_import_worldmap_wrong_directory">هل أنت متأكد من وجود خريطة العالم في هذا المجلد؟ الرجاء تحديد المجلد المسمى \"worldmap\" داخل موقع التصدير الخاص بك.</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- مهجور -</string>
     <string name="monsterinfo_killcount">عمليات القتل السابقة</string>
     <string name="loadsave_import_error_unknown">حدث خطأ غير معروف أثناء الاستيراد.</string>
     <string name="loadsave_import_worldmap_wrong_file">هل أنت متأكد أنك اخترت خريطة العالم؟ الرجاء تحديد الملف المضغوط المسمى \"worldmap.zip\" الذي تم تصديره إلى موقع التصدير الخاص بك.</string>

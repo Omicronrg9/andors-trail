@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="2017.05.26" orientation="orthogonal" renderorder="right-down" width="14" height="12" tilewidth="32" tileheight="32" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="14" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="8">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,27 +180,27 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="14" height="12">
+ <layer id="1" name="Ground" width="14" height="12">
   <data encoding="base64" compression="zlib">
-   eJz7zcnA8JtMHCyNG2OTh+lLksaNscnD9NVxMzDUA3EDEB/lRMW/ObGLgXAfUH0/EE8gUd88oPr5QLwASd9VKA3yDy596OLIOImAvqsE9OPSZynGwGAtht9/V5HEYO73BOrxxqIPm/+CpRHujwTqicaiD5v/QGJPOcnDAOFbgbw=
+   eJz7zcnA8JtMHCyNG2OTh+lLksaNscnD9NVxMzDUA3EDEB/lRMW/ObGLgXAfUH0/EE8gUd88oPr5QLwASd9VKA3yDy596OLIOImAvqsE9OPSZynGwGAtht9/V5HEYO73BOrxxqIPm/+CpbG7n5D/QGJPOcnDACxwgng=
   </data>
  </layer>
- <layer name="Objects" width="14" height="12">
+ <layer id="2" name="Objects" width="14" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMPOdjYGBngrCVhVHlVIH8a0D5PJA8P6pcEVSPAysDw00g3siKaXYdEyp/OQsDgyaUHQBU/xKIDwJxM1SvOhSD1KmjmWWJxBaDmsstBqHNoZgBiSYEprExMHgB6alAuy6KQezEBW4IMjCsgfp/GVBfFJIcsjstsJjhDHTrM6D5L8VQ3Y7szoMskPA8CbTjMNSMYCD/G1TPSyGE2mVIdlwEsi8B40cVqO8ykL2DDyKegRSeMBrZnQ+RzHgMZJ8A6sthRegDuQ0ULsjhSi4AAMsSIuo=
+   eJxjYKAMPOdjYGBngrCVhVHlVIH8a0D5PJA8P6pcEVSPAysDw00g3siKaXYdEyp/OQsDgyaUHQBU/xKIDwJxM1SvOhSD1KmjmWWJxBaDmsstBqHNoZgBiSYEprExMHgB6alAuy6KQezEBW4IMjCsgfp/GVBfFJIcsjstsJjhDHTrM6D5L8VQ3Y7szoMskPA8CbTjMNSMYCD/G1TPSyGE2mVIdlwEsi8B40cVqO8ykL2DDyKegRSeMBrZnQ+BaiOBZkcD8WMg+wRQXw4rQh/IbaBwQQ5XcgEAJDEjyg==
   </data>
  </layer>
- <layer name="Above" width="14" height="12">
+ <layer id="3" name="Above" width="14" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYCAfHBZD5SsK45cnJE6svstI8spAOy+KYcpz8WPqu0TAXHR5Ytx5GYsafPqUhCH2YHMLIfvwuQMGkN1TLIQphksfNr8gi3FjCU8QwOaXwzj8Rw4AAE6QHjg=
   </data>
  </layer>
- <layer name="Walkable" width="14" height="12" visible="0">
+ <layer id="4" name="Walkable" width="14" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJEEDAKkqKcFJtUNMPXYAD5z8QFK9eEyh1iAy358dhHSh8sv+MIfmzw1MQArFVu7
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="down" type="mapchange" x="224" y="128" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_castle_barrack0"/>
@@ -212,7 +212,7 @@
   <object id="4" name="stn_gyra_hlm2a" type="script" x="160" y="192" width="96" height="96"/>
   <object id="5" name="stn_gyra_hlm2b" type="script" x="352" y="128" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="6" name="erwyn_commander" type="spawn" x="32" y="96" width="192" height="160">
    <properties>
     <property name="spawngroup" value="erwyn_commander"/>
@@ -226,6 +226,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
- <objectgroup name="Replace"/>
+ <objectgroup id="7" name="Keys"/>
+ <objectgroup id="8" name="Replace"/>
 </map>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="19">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="20">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztlTEOwjAMRaMwIOZO7dl7BYqYGWhmpsLeCVbOAFFVxWptWscmkRDDU5YoL/5ynMYa0yAc3hx3cTxLY/oyrNgezCn1Tt0aXur+XCivE9Yb4/W13pheKk+u95u15vL6bCRebrYjvdAb29tUvRq9XC+codHLn86k/JyM1+S6J+bBklea8XnlHNLOuLODuwU45NzpnR5WPoO9+wrAaoFOaa2Quw1QfcXJV/M/SjGPMa/an1cgEHthxrHzdsQVc7B93qOZ8amaQ/WIpvdSBTbbYU1RL4dcXmxmp/Lmer9/7+96X/AekpQ=
@@ -190,17 +193,17 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJylVstqAkEQHCTmFkmECIIfkWt+KMd8Qs6BfELwlGM8Jzl5CVniA8FDFFHwJmgUAvmBTOM0W7Q9vTumYNl11+2qru6eWefi6Dade204l104t/XXO38M4Pqs7lytnv8mbJuHcejZAt6jawujwJsKjTvlOYF4V0LfDt5bRrRzbujFw/n+/FazOclTzBdjpIK1U80+C3gJyLsRuV3Vcz2IkaHtvmr73KnkvDEvESleWPHYl2P6ytJSpqckL/qnvZ8ZeVCv0PwUedcNcXvA2w/vYH+n9llRvjI3zS95b+1/b/zxGHqjXTnsxTLcWch1UKKvGMyJIH5co3gOJLCXJThHTctTNa6nHWJaM8Z6cK2y5oT8/W6m+aJh0cx5Y2s49y73J9f2v5y7yJ6g9QniWakvoQP3tb5CP3sl14xp0MLeSG7inIJeWY+OolXzj3VZ3g4Nz/EZc1LdSE+m5HrMfrSS9RcztBDxUtfldQk92tzKWjOvNW/0rJ84O1vFY/TRyledLZ/LrY/z0fI18sfv6f72jV9Lxg1d/0zcW8F3xvgyr03RXnLneb8856SV35NrGObLcX8gLs/QxJ9flGMGfqzEjFyf2PrK7sEWYrqkNsJa+PUOz5cwQ7Q20axNxf9j+zvWAWdU04YYFvQU1yNl/ZffwBaYl/eZeTgzin4TtJ5nn1A3f9dwL3Pu85Cj1FB0tjRhPWi+eK/hfPEd0m9xpWpjYO7Eu4ZYsTPGYl/LavoD3oARhQ==
+   eJydVk1rU0EUHWN1Z9GAhQeN/QtuXeren+BCEJf+BNeCP6F05dKsrasqiMGkodCFKSWB7gJpExC6deG9dE7e8ebOvDc98Hjz5r2Zc+7nvBDSOKpCONwJYfAohKWMV3Id0/hBN4Ttbv2sWFab++i7Ga3TcQ4nkbcUHnfJe4Xyzo2+Fa27SGiHbeyLjw9v7l+385zqU7aX9ygFtGvMfjXwKpj30tj2tFvrYZxktH24l/dzv1PzpnzJKPFFbj/45TZ5BQx7IYx6/8+1ySnLy/7z1g8ydmiuaP00+e4o7jsk3lFcw/ldmmdN9rJt38RX3x1/Wc67T0LYkms/5saB3BfyzWW1uTaHQbT1uEVeAeBkKD/3KNSBBeeyBWz0tHySGjmj+b80Poh7vt5La4Ye7lW5OlFfXlVlfvEwq2reVA9H7iI/vTgqJi21gHOVOBNsz7L4TPF9SeM+jb28Yn8OW/YMxBS+AferTs3Jcbfx6Du56PlvnVtSW+Pe5hrFOFMr/A6cGjfVM3Bsvc15hLy8I3XdkSuYGpqZ/Ur78qKFHq9ubazB+yZTb9rTRoW1s3R8zH7M2evWltjyTvb5uSsxkuv6/s30W+klpzv+mXxu5ub0n3H6uI5N01nyXnh/C+dkt57THsZge5Gzf2hf1NBE7l+c65z8MTc18mwrr6/tGZxDSpfVplgYf/2g9xdUQ9qbtNbOzPep853jwDXqaWOMG3IK8Sjp//YfOAfw4pyZmp6F8x2Yxu8YXs7DT6wb/zXIZdi+tjH2xKnRwtr4Dni9lOOh9YWzBvayXarfcrEWncf3KU3P5d2L+H6tizQor7UTz6hluyf8imd8l9LwD3gtBNQ=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFVksOgkAMRTawcqPReHhvYtxwA12NURM9iFFCJpbaz5SW+DY4dIb3eP1gVfHoNkLQgetOjlO8/Zmbcg7Duh/zajqjUOoz9uCo6JP095wnY36tfnK8XlC1oNUHxQv9m1JfJSh9Xyu3pYc4vzDS597F6cFcM0PjpGo5IqdSj3FzikOEvxxvCTTus/Dc7HF0j8DcUd7NVU/S7KPqCecO1paU14PgF4yVzGPP94jT6PU3P/e+sp3rmFqS+g3GHs1wfSHeZzNewzxBj6fW8aIdrsv1+H7d/mrM0Dz2zAXpP0sfi5g3Gdv6+1vrn39A4pX6UELJuX1dtjdq/kNQMzvzYD5tbQH2mnr3rEFbWzRROU4OTyVNCfUSx4n3RsLbS1Ztbwsyfls=
+   eJzFVs0OATEQrr3YkwshDghvIvGawtXPI4iLN+BEkCyeQ7TZNGbHdNrRiu+ybKf7ff3mZ1cpN3ZtZjEC5y6/TvGaPRfPPgxpPOb16UyFUJ+xB1uPPk6/4dwL8yv108Ubi0VPqWWves9XHxQv9O+b+gpB6Hml3JIemmmv5oRfGHcd80BxRx13Emj71czwcVK1nCKn4wHPS3G6IPVSwhsCH/eBea71OHWPwNxR3v2qnrjZR9UTzh2srZXumTXqG4sN4xdcC5nHMe+jQuu7ERpj/bW+XJuyfTtHLU2YfoPzuqiX1yfivdWr/2GeoMff1nEtL6+NVvV+ln9qtPB57MpNCLhvFrOWYt5YdLL3b1///AMcL9eHHEL2TbOw2FTzH4Ka2ZYH8+H3e4we7DU+u52JWMsRxFEauVlK8RpQ56K0UPFYm7kO+0qN+tXnYF4bC89pAHsZnxdqo3qeio/tJZfnLrwAfLWTBg==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9lEsKwzAQQ3OK3v8KvmFXhRJs6UlMMuCFQR7Jms/6XNcS5xcK848lOJorDZej4dz5QLkTTxRnG1MeUw8IJ81z4ibYqX4iWtqeUjmJhmaGJvosrS/hTGeRzM/EfwhO5TxpIf6p3eE4U77mv85jpb/hbWc46dNJzlNep+2kf3d3NVf6kppO+b+7t5HWi/is3jpuwkf/nc7x/Q31uMW1vdwE9WuKLw03Q4mudL/uaq+wEx65nZPs2/tbop/0XXKcpmTGnzpvcn4Bvhk/jQ==
+   eJy9lNENw0AIQzNF918hG/arUnUC/OySIt1HFMA+H+Z+Xdc9nE9MOd+5JI/2ckP1SDArHSi2o8mEmcaWxlQDgkn7dNgkd2ueCJd0pqaehEPioY05c9+XYLq+IHnOfbo7Euyu57kDVP+Tz7Q7FGb3T/m2q0m8W/H/BTf1sDOnm5hdX8Wt4199O7pOuKpmS//qOw33vYjOU63CJnj03sTHVe8qT+EkeeksJ0H12sJzQ3nI4eXu1+rtp9wNjdTOcfbtWUv4k7lzjuLkePyp80/MN92vMY8=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -253,48 +256,54 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object id="11" name="mountain_top" type="mapchange" x="736" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="thieves_vault"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="11" name="forestboar2" type="spawn" x="192" y="96" width="480" height="256">
+  <object id="12" name="forestboar2" type="spawn" x="192" y="96" width="480" height="256">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestboar2"/>
    </properties>
   </object>
-  <object id="12" name="forestbeetle" type="spawn" x="381" y="221" width="512" height="352">
+  <object id="13" name="forestbeetle" type="spawn" x="381" y="221" width="259" height="355">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="forestbeetle"/>
    </properties>
   </object>
-  <object id="13" name="forestwasp" type="spawn" x="160" y="352" width="320" height="288">
+  <object id="14" name="forestwasp" type="spawn" x="160" y="352" width="320" height="288">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestwasp"/>
    </properties>
   </object>
-  <object id="14" name="fox2" type="spawn" x="96" y="512" width="256" height="320">
+  <object id="15" name="fox2" type="spawn" x="96" y="512" width="256" height="320">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="fox2"/>
    </properties>
   </object>
-  <object id="15" name="forestwolf1" type="spawn" x="352" y="640" width="512" height="256">
+  <object id="16" name="forestwolf1" type="spawn" x="352" y="736" width="544" height="128">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
-  <object id="16" name="unzel" type="spawn" x="896" y="64" width="32" height="32">
+  <object id="17" name="unzel" type="spawn" x="896" y="64" width="32" height="32">
    <properties>
     <property name="spawngroup" value="unzel"/>
    </properties>
   </object>
-  <object id="17" name="knights" type="spawn" x="96" y="448" width="512" height="384">
+  <object id="18" name="knights" type="spawn" x="96" y="448" width="512" height="384">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
@@ -304,7 +313,7 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Keys">
-  <object id="18" name="stop_hero" type="key" x="96" y="448" width="512" height="384">
+  <object id="19" name="stop_hero" type="key" x="96" y="448" width="512" height="384">
    <properties>
     <property name="phrase" value="brv_wait_patrol"/>
     <property name="requireId" value="brv_nondisplay"/>

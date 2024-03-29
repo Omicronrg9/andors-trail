@@ -137,7 +137,8 @@ public final class ResourceLoader {
 		final ItemTypeParser itemTypeParser = new ItemTypeParser(loader, world.actorConditionsTypes, world.itemCategories, translationLoader);
 		final TypedArray itemsToLoad = r.obtainTypedArray(itemsResourceId);
 		for (int i = 0; i < itemsToLoad.length(); ++i) {
-			world.itemTypes.initialize(itemTypeParser, readStringFromRaw(r, itemsToLoad, i));
+			String s = readStringFromRaw(r, itemsToLoad, i);
+			world.itemTypes.initialize(itemTypeParser, s);
 		}
 		itemsToLoad.recycle();
 		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("ItemTypeParser");
@@ -378,6 +379,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_bosses_2x2, "monsters_bosses_2x2", sz1x1, sz2x2, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_omi2, "monsters_omi2", sz8x3, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_phoenix01, "monsters_phoenix01", sz16x8, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_cats, "monsters_cats", new Size(10, 2), sz1x1, mTileSize);
 		/*INSERT_NPCS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.map_bed_1, "map_bed_1", mapTileSize, sz1x1, mTileSize);
@@ -398,6 +400,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_curtain_1, "map_curtain_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_entrance_1, "map_entrance_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_entrance_2, "map_entrance_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_entrance_3, "map_entrance_3", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_fence_1, "map_fence_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_fence_2, "map_fence_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_fence_3, "map_fence_3", mapTileSize, sz1x1, mTileSize);
@@ -451,12 +454,14 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_tree_1, "map_tree_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_tree_2, "map_tree_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_tree_3, "map_tree_3", new Size(32, 17), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_tree_4, "map_tree_4", new Size(16, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_1, "map_wall_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_2, "map_wall_2", new Size(15, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_3, "map_wall_3", new Size(15, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_wall_4, "map_wall_4", new Size(15, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_window_1, "map_window_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_window_2, "map_window_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_items_japozero, "map_items_japozero", new Size(16, 37), sz1x1, mTileSize);
 		/*INSERT_MAP_TILESETS_HERE*/
 
 		loader.prepareTileset(R.drawable.effect_blood4, "effect_blood4", new Size(7, 2), sz1x1, mTileSize);
