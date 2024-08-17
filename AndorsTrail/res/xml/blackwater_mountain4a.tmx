@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="7" height="27" tilewidth="32" tileheight="32" infinite="0" nextobjectid="15">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="7" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="15">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,35 +183,32 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_entrance_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
- </tileset>
- <layer name="Ground" width="7" height="27">
+ <layer id="1" name="Ground" width="7" height="27">
   <data encoding="base64" compression="zlib">
    eJxbz8TAsIWTgWEtkF4HxOuR+OsHSG4/kD4AxAexyF0E0peA+DIWOXRMDbnBFC6jctSRAwBfioXG
   </data>
  </layer>
- <layer name="Objects" width="7" height="27">
+ <layer id="2" name="Objects" width="7" height="27">
   <data encoding="base64" compression="zlib">
    eJxjYGBguCPGgAKQ+UNJ7jETA8MTIH7KRJq+2UD1c4B4Lon6RuWGphwAHP83mQ==
   </data>
  </layer>
- <layer name="Above" width="7" height="27">
+ <layer id="3" name="Above" width="7" height="27">
   <data encoding="base64" compression="zlib">
    eJw7JMbAcGgUj+IRhAG2qp95
   </data>
  </layer>
- <layer name="Top" width="7" height="27">
+ <layer id="4" name="Top" width="7" height="27">
   <data encoding="base64" compression="zlib">
    eJxjYGBguCzGgAKQ+YfR5A4PIrlLeORwmUGJ3FAJl1E5CLiEJgfjAwB60yuZ
   </data>
  </layer>
- <layer name="Walkable" width="7" height="27" visible="0">
+ <layer id="5" name="Walkable" width="7" height="27" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMYABhvFEBiZP1zk0MFgdeeoHO3lAAmJZp0=
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="12" name="south3" type="mapchange" x="160" y="832" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain3"/>
@@ -237,7 +234,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="11" name="gornaud_1" type="spawn" x="32" y="96" width="160" height="448">
    <properties>
     <property name="quantity" value="3"/>
@@ -245,5 +242,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup id="8" name="Keys" visible="0"/>
 </map>

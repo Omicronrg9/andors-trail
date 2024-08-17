@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="16">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGEYxgYtZe6dlDbXmL04wPEmg9TS4l+fPrwhQ02N1ASNshihPyGLofPvcTYSy1Aajyj+wPZDGraS618QQ880PaSE9aU2kvIjoEOE0r9Q0zYIash1l50Peh2kQOo4U9qmE9vDAArlFem
+   eJzbKMbAsHGEYxgYtZe6dlDbXmL04wPEmg9TS4l+fPrwhQ02N1ASNshihPyGLofPvcTYSy1Aajyj+wPZDGraS618QQ880PaSE9aU2kvIjoEOE0r9Q0zYIauhVA8uMWIAsf4mFwxEPBKDATT5VVE=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -229,45 +229,51 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object id="7" name="east2" type="mapchange" x="928" y="512" width="32" height="64">
+   <properties>
+    <property name="map" value="bwmfill7"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="7" name="bwm_agent_5" type="spawn" x="192" y="320" width="32" height="32">
+  <object id="8" name="bwm_agent_5" type="spawn" x="192" y="320" width="32" height="32">
    <properties>
     <property name="spawngroup" value="bwm_agent_5"/>
    </properties>
   </object>
-  <object id="8" name="wyrm_1" type="spawn" x="480" y="160" width="224" height="192">
+  <object id="9" name="wyrm_1" type="spawn" x="480" y="160" width="224" height="192">
    <properties>
     <property name="spawngroup" value="wyrm_1"/>
    </properties>
   </object>
-  <object id="9" name="wyrm_2" type="spawn" x="736" y="288" width="32" height="64">
+  <object id="10" name="wyrm_2" type="spawn" x="736" y="288" width="32" height="64">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="wyrm_2"/>
    </properties>
   </object>
-  <object id="10" name="wyrm_3" type="spawn" x="64" y="256" width="64" height="96">
+  <object id="11" name="wyrm_3" type="spawn" x="64" y="256" width="64" height="96">
    <properties>
     <property name="spawngroup" value="wyrm_3"/>
    </properties>
   </object>
-  <object id="11" name="wyrm_2_1" type="spawn" x="768" y="416" width="32" height="32">
+  <object id="12" name="wyrm_2_1" type="spawn" x="768" y="416" width="32" height="32">
    <properties>
     <property name="spawngroup" value="wyrm_2"/>
    </properties>
   </object>
-  <object id="12" name="wyrm_2_2" type="spawn" x="704" y="544" width="32" height="32">
+  <object id="13" name="wyrm_2_2" type="spawn" x="704" y="544" width="32" height="32">
    <properties>
     <property name="spawngroup" value="wyrm_2"/>
    </properties>
   </object>
-  <object id="13" name="wyrm_2_3" type="spawn" x="320" y="512" width="352" height="96">
+  <object id="14" name="wyrm_2_3" type="spawn" x="320" y="512" width="352" height="96">
    <properties>
     <property name="spawngroup" value="wyrm_2"/>
    </properties>
   </object>
-  <object id="14" name="wyrm_2_4" type="spawn" x="160" y="64" width="64" height="160">
+  <object id="15" name="wyrm_2_4" type="spawn" x="160" y="64" width="64" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="wyrm_2"/>
@@ -275,7 +281,7 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Keys">
-  <object id="15" name="Object" type="key" x="0" y="160" width="32" height="64">
+  <object id="16" name="Object" type="key" x="0" y="160" width="32" height="64">
    <properties>
     <property name="phrase" value="bwm30_ortholion_warning"/>
     <property name="requireId" value="bwm72_beginning"/>

@@ -68,6 +68,7 @@ public final class MapController {
 		case sign:
 			if (o.id == null || o.id.length() <= 0) return;
 			worldEventListeners.onPlayerSteppedOnMapSignArea(o);
+			runScriptInArea(o);
 			break;
 		case newmap:
 			if (o.map == null || o.place == null) return;
@@ -79,7 +80,7 @@ public final class MapController {
 			steppedOnRestArea(o);
 			break;
 		case script:
-			runScriptArea(o);
+			runScriptInArea(o);
 			break;
 		}
 	}
@@ -93,7 +94,7 @@ public final class MapController {
 		return true;
 	}
 
-	private void runScriptArea(MapObject o) {
+	private void runScriptInArea(MapObject o) {
 		Resources res = controllers.getResources();
 		mapScriptExecutor.proceedToPhrase(res, o.id, true, true);
 		controllers.mapController.applyCurrentMapReplacements(res, true);
@@ -164,6 +165,7 @@ public final class MapController {
 			return true;
 		}
 		worldEventListeners.onPlayerSteppedOnKeyArea(area);
+		runScriptInArea(area);
 		return false;
 	}
 

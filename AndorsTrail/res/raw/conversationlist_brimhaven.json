@@ -3416,6 +3416,62 @@
             {
                 "text":"I am looking for my brother, Andor. He looks a bit like me.",
                 "nextPhraseID":"brv_woodcraftsman_1"
+            },
+            {
+                "text":"Hello. The woodcutter in Loneford said that you can make me fences for a sheperd. Is that true?",
+                "nextPhraseID":"brv_woodcraftsman_fence1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":210
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Here is your wood.",
+                "nextPhraseID":"brv_woodcraftsman_fence2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":230
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"tunlon_wood",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":240,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Ah, you are back.",
+                "nextPhraseID":"brv_woodcraftsman_fence3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":235
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":240,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -7391,6 +7447,47 @@
                 ]
             },
             {
+                "nextPhraseID":"brv_patrol_stop_hero_bur",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwmfill_nondisplay",
+                        "value":41,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_patrol_stop_hero_box1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bonemeal_potion",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"guynmart_bonemealbox",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_patrol_stop_hero_box2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"guynmart_bonemealbox",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_patrol_remove_all_bonemeals"
             }
         ],
@@ -7399,6 +7496,21 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_nondisplay",
                 "value":142
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":40
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":42
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":43
             }
         ]
     },
@@ -7486,13 +7598,55 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_patrol_stop_hero"
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar_x"
             }
         ]
     },
     {
         "id":"brv_patrol_bonemeals_removed",
         "message":"What's this? Smells like Bonemeal!\n\nBonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it.\n[He gives you back all your belongings but keeps the Bonemeals]\n\nKeep away from illegal stuff. Now go on your way.",
+        "replies":[
+            {
+                "text":"Hey, what the ...?",
+                "nextPhraseID":"brv_patrol_bonemeals_removed_bur",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwmfill_nondisplay",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"Phew, at least they didn't find my iron reserve in the bonemeal box.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwmfill_nondisplay",
+                        "value":42
+                    }
+                ]
+            },
+            {
+                "text":"Phew, at least they had let me go.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwmfill_nondisplay",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwmfill_nondisplay",
+                        "value":42,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -9835,5 +9989,148 @@
                 "nextPhraseID":"R"
             }
         ]
+    },
+    {
+        "id":"brv_patrol_remove_all_bonemeals_lodar_x",
+        "replies":[
+            {
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar_x_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwmfill_nondisplay",
+                        "value":43
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar_x_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwmfill_nondisplay",
+                        "value":42
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_patrol_stop_hero"
+            }
+        ]
+    },
+    {
+        "id":"brv_patrol_remove_all_bonemeals_lodar_x_1",
+        "replies":[
+            {
+                "nextPhraseID":"brv_patrol_stop_hero"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bonemeal_potion",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brv_patrol_remove_all_bonemeals_lodar_x_2",
+        "replies":[
+            {
+                "nextPhraseID":"brv_patrol_stop_hero"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"pot_bm_lodar",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brv_patrol_stop_hero_bur",
+        "replies":[
+            {
+                "nextPhraseID":"brv_patrol_stop_hero"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":142
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":40
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":41
+            }
+        ]
+    },
+    {
+        "id":"brv_patrol_stop_hero_box1",
+        "replies":[
+            {
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":42
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":43
+            }
+        ]
+    },
+    {
+        "id":"brv_patrol_stop_hero_box2",
+        "replies":[
+            {
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwmfill_nondisplay",
+                "value":42
+            }
+        ]
+    },
+    {
+        "id":"brv_patrol_bonemeals_removed_bur",
+        "message":"One of the guards winks at you while putting the confiscated bonemeal potions back in your pouch.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"???",
+                "nextPhraseID":"brv_patrol_bonemeals_removed_bur_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_patrol_bonemeals_removed_bur_10",
+        "message":"You'll be speechless - the guard is Burhczyd in the uniform of the Feygard Guard!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_patrol_bonemeals_removed_bur_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_patrol_bonemeals_removed_bur_20",
+        "message":"Before you react, the guards have moved on."
     }
 ]

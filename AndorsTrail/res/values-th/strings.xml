@@ -84,4 +84,15 @@
     <string name="combat_result_monstermiss">%1$s โจมตีพลาด!</string>
     <string name="combat_result_monsterhitcritical">%1$s ทำการโจมตีติดคริติคอล สร้างความดาเมจจำนวน %2$d HP!</string>
     <string name="combat_result_monsterhit">%1$s ทำการโจมตีคุณ สร้างดาเมจำนวน %2$d HP!</string>
+    <string name="combat_condition_monster_clear">%1$s ถูกเคลียร์จาก %2$s แล้ว</string>
+    <string name="combat_condition_player_clear">คุณเคลียร์ %1$s แล้ว</string>
+    <string name="combat_condition_player_immune">ขณะนี้คุณได้รับภูมิคุ้มกันแล้ว %1$s.</string>
+    <string name="combat_condition_player_apply">คุณได้รับผลกระทบจาก %1$s</string>
+    <string name="combat_taunt_monster">คุณล้อเลียน %1$s!</string>
+    <string name="combat_result_herokillsmonster">%1$s ตาย!</string>
+    <string name="combat_result_herohitcritical">คุณได้รับการโจมตีคริติคอลด้วย %1$ สำหรับ%2$d hp!</string>
+    <string name="combat_not_enough_ap">เอพีไม่เพียงพอทิ้งสำหรับรอบนี้</string>
+    <string name="combat_hero_dies">คุณหมดสติไป แต่โชคดีที่ตื่นขึ้นมาอย่างมีชีวิตชีวา มึนงง และเหนื่อยล้า คุณสูญเสีย %1$d ประสบการณ์</string>
+    <string name="combat_miss_animation_message">ผิดพลาด, คิดถึง</string>
+    <string name="combat_condition_monster_apply">%1$s ได้รับผลกระทบจาก %2$s</string>
 </resources>

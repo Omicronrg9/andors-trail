@@ -92,7 +92,32 @@
     },
     {
         "id":"tinlyn_killedsheep_1",
-        "message":"You attacked my sheep! Get away from me you filthy murderer!"
+        "message":"You attacked my sheep! Get away from me you filthy murderer!",
+        "replies":[
+            {
+                "text":"I am sorry. But your brother sent me to ask if you knew where I could get fences for his sheep.",
+                "nextPhraseID":"tinlyn_fence_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"tinlyn_complete_1",
@@ -108,6 +133,29 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"Your brother has sent me to ask where I could get fences from. Do you maybe know?",
+                "nextPhraseID":"tinlyn_fence_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -118,6 +166,29 @@
             {
                 "text":"What's the problem?",
                 "nextPhraseID":"tinlyn_story_2"
+            },
+            {
+                "text":"Your brother has sent me to ask where I could get fences from. Do you maybe know?",
+                "nextPhraseID":"tinlyn_fence_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

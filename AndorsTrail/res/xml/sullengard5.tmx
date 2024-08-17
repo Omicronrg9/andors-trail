@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="20">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="20">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -275,7 +275,7 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="10" name="sullengard5_replace_below_script" type="script" x="544" y="448" width="32" height="32">
+  <object id="10" name="sullengard5_replace_below_script" type="script" x="544" y="448" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>

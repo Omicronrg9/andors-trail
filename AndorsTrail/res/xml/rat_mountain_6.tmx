@@ -191,12 +191,12 @@
  </tileset>
  <layer id="1" name="Base" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4AwWME00C4YBaNgaAIAK1gAqw==
+   eJxjYBgFo4AwWME0vOwZBaOAXgAADDwBVQ==
   </data>
  </layer>
  <layer id="2" name="Ground" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJytkjsOgCAMQI2H8OhOHkAHdcdBjasO6s7kQYQEImkKbdXhJQTy6LfOs6wmuBz23Bo6hoMxGibglwEpdzccLj723jBqiLkD4VaRmq2nEp7v1Sz0vNsbTlAj5YWupD8p17IUMhfOlJovtleSnDvgw5nG/hoDVzlvY7p7/uz0inj+P2qnNRJPM2Z9IXfcnmG8dak6U/E4df6Vq/qQqw5ylXIDJ4jriw==
+   eJytkjsOhDAMBRGH4OhUHAAKoA8FIFq2YLdPxUFIpERYlhPbC8VIiGjiz0tbFkXLcAb8d+8YBA7F7FiQXwNy7uH4hvrUeSeYIeVOjNskZvaeyXhxV6vSi+7o+KEZOQ+6mv3kXM9W6VycKZdv3BWso+l5QBnhTFN3zcA1wfsI3aO83/ROePE+7k1bop4VZH0S/6Q7o/jX5ebM1ZPM+Vav5kGvFvSq5QKsYOu6
   </data>
  </layer>
  <layer id="3" name="Objects" width="15" height="23">
@@ -206,12 +206,17 @@
  </layer>
  <layer id="4" name="Above" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJybzsRAEZhOoX5ygYs8pthlMfLNO0ymXpCdl4D4sSwDwxNZ3G7DpQ8E9kgSb996oB0bZLHL3QWK38MhBwLk+pEUQIpfiDGDmnFKrFkgdeh6YfyFwPBdRCCML+HQSwgg64PpQTcLHWBzC0gvvjR4Exi+t3DEEz63PgXa9QyP3wml+5tIdsLieCOQ3iQJ8ecuoP7dQLwHiB8C7XkExKuBeI0sdrPR3YqcN5DzI7rd2PSCgCOSHSxy2PWBAKE4QQcAeao2yA==
+   eJybzsRAEZhOoX5ygYs8pthlMfLNO0ymXpCdl4D4sSwDwxNZ3G7DpQ8E9kjiV4cM1gPt2CCLXe1doPg9JDl0P5HiR3LDA+QXcvUimwED1IxTYs0CqcMVdguB4bsIR/jD1F0iM9yR9cH0oJuFDrC5BaQXXxq8CQzfWzjSHD63PgXa9QyP3wml+5tIdsLieCOQ3iQJ8ecuoP7dQLwHiB8C7XkExKuBeI0sdrPR3YqcN5DzI7rd2PSCgCOSHSxy2PWBAKE4QQcASa46PA==
   </data>
  </layer>
  <layer id="5" name="Top" width="15" height="23">
   <data encoding="base64" compression="zlib">
    eJxjYBgFQwlcFhtoF4yCUYAdHCYjbZKjZ6gBABLdApw=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="15" height="23" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJytlMkNwDAIBF2F+2/BHeaThxXNHkhB4hXDsHids9c6b95xtk4600TLoJrEUd/c3H/3bWrTHu+5vj2cDuJO7krxE4t4Sk/aFemb8GkWOpN6Og86LulNvpu+K7djpZMivbW2rv0HNL5vuc5fbZJm5dVmRuevBzd9dvA=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -262,11 +267,6 @@
    </properties>
   </object>
  </objectgroup>
- <layer id="6" name="Walkable" width="15" height="23" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJytlMkNwDAIBF2F+2/BHeaThxXNHkhB4hXDsHids9c6b95xtk4600TLoJrEUd/c3H/3bWrTHu+5vj2cDuJO7krxE4t4Sk/aFemb8GkWOpN6Og86LulNvpu+K7djpZMivbW2rv0HNL5vuc5fbZJm5dVmRuevBzd9dvA=
-  </data>
- </layer>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace"/>
 </map>

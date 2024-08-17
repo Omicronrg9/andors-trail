@@ -203,12 +203,12 @@
    eJxjYBg54JH4QLuAuiCRiXZmF9LQ7FEwCkbBKKAVAADepAHQ
   </data>
  </layer>
- <layer id="4" name="Walkable" width="23" height="19" visible="0">
+ <layer id="4" name="Walkable" width="23" height="19">
   <data encoding="base64" compression="zlib">
    eJylk1EOgCAMQzkF978CN9QfE9N03Z4uIUShXTu2s9c693ri7H5V4Xj0PHGlfFSj4t77F+7EQXQr3tVvwuXuTyLdJTV2eqp/RI/7Vj0OT/qA9GHy1s2C5q+8JfzUZ+JJ2ogmp0txpBc1X1dzOn+TOnUzR3x8faM/Qeee6Onegnru+ozyVxovOLillA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="south1" type="mapchange" x="32" y="576" width="224" height="32">
    <properties>
     <property name="map" value="blackwater_mountain32"/>

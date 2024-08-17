@@ -66,14 +66,6 @@ public final class Dialogs {
 		CustomDialogFactory.show(d);
 	}
 
-	public static void showKeyArea(final MainActivity currentActivity, final ControllerContext context, String phraseID) {
-		showConversation(currentActivity, context, phraseID, null);
-	}
-
-	public static void showMapSign(final MainActivity currentActivity, final ControllerContext context, String phraseID) {
-		showConversation(currentActivity, context, phraseID, null);
-	}
-
 	public static void showMapScriptMessage(final MainActivity currentActivity, final ControllerContext context, String phraseID) {
 		showConversation(currentActivity, context, phraseID, null, false);
 	}

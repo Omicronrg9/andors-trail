@@ -54,6 +54,23 @@
             {
                 "text":"Are you a woodcutter?",
                 "nextPhraseID":"fallhaven_lumberjack_2"
+            },
+            {
+                "text":"Tunlon has sent me to ask for some wood for fences.",
+                "nextPhraseID":"fallhaven_lumberjack_17",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -359,6 +376,23 @@
             {
                 "text":"Never mind. I don't need your services for now.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Tunlon has sent me to ask for some wood for fences.",
+                "nextPhraseID":"fallhaven_lumberjack_17",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
+
     compileSdkVersion 34
-    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.gpl.rpg.AndorsTrail"
@@ -63,11 +63,18 @@ task cleanup(type: Delete) {
 afterEvaluate {
     project.tasks.copyRes.dependsOn project.tasks.copyResValuesIn
 
+    mapReleaseSourceSetPaths.dependsOn project.tasks.copyRes
+    generateReleaseResources.dependsOn project.tasks.copyRes
+
+    generateDebugResources.dependsOn project.tasks.copyRes
+    mapDebugSourceSetPaths.dependsOn project.tasks.copyRes
     mergeDebugResources.dependsOn project.tasks.copyRes
     extractDeepLinksDebug.dependsOn project.tasks.copyRes
     mergeReleaseResources.dependsOn project.tasks.copyRes
     extractDeepLinksRelease.dependsOn project.tasks.copyRes
 
+    generateDebugResources.dependsOn project.tasks.copyTranslation
+    mapDebugSourceSetPaths.dependsOn project.tasks.copyTranslation
     mergeDebugAssets.dependsOn project.tasks.copyTranslation
     mergeReleaseAssets.dependsOn project.tasks.copyTranslation
     extractDeepLinksDebug.dependsOn project.tasks.copyTranslation

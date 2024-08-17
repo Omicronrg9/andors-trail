@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="64">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="70">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -203,7 +203,7 @@
  </layer>
  <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1V8FKAzEQzcHCeqrdaqGs/QfxCyytFlqVPQj9At2DuKIn76IgnsSDh35CvfcX/AIPokJVqoi/IJiQDDs7TTbZbX0QMruZmZfMTLLZuM6MOMoYEwjrZr24Lt9DPwtCYq/zSXVsiC3rdp031dvk8pbGDusIm2GDsfuG+3wB79zmg9jhtQCPTk9AF6cx13tDup0csQVuvG6YA/jBtUA58tQGnaeuxnR5NeXEBKwfamKr07fp/AdiSwxDTW46OWqPxg0/n1em55EFmn+cN5s9zm+bzzuqSdllz4cZdYF90zrGtTZUfb9mXs8soHVM/WJeikskXzjou8zFxivif4Oeb9W7PLw4d21Siy1DbR5oeAWneP9YZeyBtyfeooJ5aanaeg4Y+wnSYzpegUlV9t/VYpwA4W/bl3KE4mjixYgc476niavwt8N5d30pdz3ZgFfIwNvz5DtvObF1QazWNUb8wvaVx/glSPu5XpRtoHodmsiPrlZgHMZwfPoGGXihdb1kbOSb1+YKU6wGQbrZ0Mw4t+lYpPYGxvqq7Cclxj5V+yqZfZ4VuKPAWgX/WlnKdyvpMRs2ysV44RyCc2ykeGkcTPhdkP0+0rftr34tOYfmCerviuQCc+L5wtl6jL7R8/xeFVnnvLhdQe/bef8PdBDx7PnJOX2yZLexcQ/Is9jDh5VpPdt9id6DTy3fI8oL+AOTrYJk
+   eJy1V8FKAzEQzUFhPdVutVDW/oP4BZZWC63KHoR+ge5BXNGTd1FQT+LBQz+h3vsLfoEHUaEqVcRfEExIhp2dJpvstj4ImU1m5iUzk+xuXGNGHGbMCYQ1s15ck+PQT4OQ2Ot8Uh0bYsu+XddN9Ta4vKmxwzrCZlBn7L7uvl7AO7f5IHZ4L8Cj0xPQxWnE9d6QbjtHbIEb7xvWAH5wLVCOPLVB16mrMV1eTTkxAeuHmtjq9G06/4HYEsNQk5t2jtqjccPPZ+XJdWSB5h/nzWaP89vi646qUnY582FGXWDftI5xrQ1U36ua9zMNaB1Tv5iX4gLJ5w76Lmux8Yr436DnWzUm9K94rE5VywLOXYvoNg22+xpewSnGHyuMPfD2xFtUMC9NVVvPAWM/QXpOxyswrsj+u1KMEyD8bflSjlDcTbwYkWO+dzVxFf62Oe+OL+WOJxvwChl4u54c85YSWxfEal8jxC9sX3mMX4K0n+sF2fqq16GB/OhqBeZhDsenZ5CBF1rHS+aGvnlvrjDFqh+kmw2NjHNF5yJ1NjDWVmQ/nmfsU7WvebNP2znWAfYq+FdLUr5bTs/ZsF4qxgv3ENxjQ8VL42DC75zs95C+7Xz1qsk9NEtQf5ckF5gTrxfu1iP0jp7l+6rIPmfF7Qr6vZ33/0AHEc+un9zTx4t2Gxt3nzyLM3xQntSzfS/R7+ATy/uI8gL+AKDshDU=
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="30" visible="0">
@@ -221,19 +221,19 @@
    eJxjYBgFo2AUjIJRMApGwSiAAC+OgXYB/QApfm0Vop076Ani2BkY4qE4gX2gXUN94AuMJ78BiKtYoJ1xwySNjIKRBwC7XQRy
   </data>
  </layer>
- <layer id="7" name="Walkable" width="30" height="30" visible="0">
+ <layer id="7" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNU0EOwCAI8xX+yP9/aScTYygUrGYkZtmGlEI7emtjOXuMfv/8AdOK19gveLMzR/9PemX47v9Vc9prvtQBG2t+ddbqqO7V4sP0qJ5tpNtqHywus0fUV4TPeqrqk+zOXxwFrmLfSm0qcZlcFV+PU5ZnFvdEu0q+XtzS88yz7rB1LFz0jen1BHfn5O0V9VzVOsvJeka4KCL/oDyPE7of1fR6tN49TWT0jDCtmhXvediRDhEfdm4ZD1T8g2qceH7mfPWcws0=
+   eJzNU20KxTAI6yl6o97/Svs1KGI0frQ0MB6vc02icc0x1vZIrHn+eYFTw23uG77ZnqP3Fa2MX/m+q0/yzps5YLHXZ3vdjexcNT+Mxu7eernN6mB5mTkiXR4/u1PZPYnOXJ5XtUR4q5k5wevhhF+mtsuv5SnqM8pbyW6nXwud85W9RX5Zbo0XnTFaK7zSkzVXpDmbddaT9uvxInj7g+osT+h7705Lo/bfykQ0z6jWO2ORzSHyw/YtsgOZ/UF3VHb+r/kAJPnBYQ==
   </data>
  </layer>
- <layer id="13" name="Walkable0" width="30" height="30" visible="0">
+ <layer id="13" name="Walkable0" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNU0EOwCAI8xX+yP9/aScTYygUrGYkZtmGlEI7emtjOXuMfv/8AdOK19gveLMzR/9PemX47v9Vc9prvtQBG2t+ddbqqO7V4sP0qJ5tpNtqHywus0fUV4TPeqrqk+zOXxwFrmLfSm0qcZlcFV+PU5ZnFvdEu0q+XtzS88yz7rB1LFz0jen1BHfn5O0V9VzVOsvJeka4KCL/oDyPE7of1fR6tN49TWT0jDCtmhXvediRDhEfdm4ZD1T8g2qceH7mfPWcws0=
+   eJzNU20KxTAI6yl6o97/Svs1KGI0frQ0MB6vc02icc0x1vZIrHn+eYFTw23uG77ZnqP3Fa2MX/m+q0/yzps5YLHXZ3vdjexcNT+Mxu7eernN6mB5mTkiXR4/u1PZPYnOXJ5XtUR4q5k5wevhhF+mtsuv5SnqM8pbyW6nXwud85W9RX5Zbo0XnTFaK7zSkzVXpDmbddaT9uvxInj7g+osT+h7705Lo/bfykQ0z6jWO2ORzSHyw/YtsgOZ/UF3VHb+r/kAJPnBYQ==
   </data>
  </layer>
  <layer id="8" name="Walkable2" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNU0EKwDAI6yv6o/7/SzsNSjEabSYTythmjYlxzTHWds5Y8/vzB0wrurE7eLOao/83vTJ8z/8qnc6anT5gY8+vaq2O6lwtPkyPam0j31b7YHGZOaK+Inx2p6p7kp15x1HgKuat9KYSl8lV8fU4ZXkq5lu5o5xvVuMbXMSXrWPhom8s3yruycmbK+qZ1crCZThZzwgXRbQ/KM/zFrof1fR6tN49T2T8jDCtmky/Xr2sDxEfVrfMDlT2B9W42fk35wFlnsQ5
+   eJzNU9sJADEI6xTdqPuvdF8HRYzGR0uFclwfJtG45hhrWzLWPL9ewNTiNvYN3WzN0XmFK6NXnnfVSea86QM29vvZWndHtq+aHoZjd20932Z5sLhMHxEvD5+dqeycRHsu96tcIrhVz5zA9eKEXuZul15LU1RnR38zbzr7G61xBRfpZfNouGiP1ZvFlZqsviLObK00XEaT9vVwUXjzg+5Z3kLvvZwWR+3f8kTEzwhTy8nwtfJFfYj0sHWLzEBmflCOysz/dz4l7MMo
   </data>
  </layer>
  <objectgroup id="9" name="Mapevents" visible="0">
@@ -322,6 +322,8 @@
   <object id="55" name="fix_stn_skeletons_2b" type="script" x="864" y="608" width="32" height="32"/>
   <object id="56" name="fix_stn_skeletons" type="mapchange" x="704" y="608" width="32" height="32"/>
   <object id="63" name="fix_stn_skeletons_10" type="script" x="832" y="544" width="32" height="32"/>
+  <object id="66" name="fix_stn_skeletons_50" type="script" x="640" y="512" width="288" height="192"/>
+  <object id="67" name="fix_stn_skeletons_60" type="script" x="672" y="704" width="64" height="32"/>
  </objectgroup>
  <objectgroup id="10" name="Spawn" visible="0">
   <object id="26" name="stn_colonel" type="spawn" x="480" y="672" width="32" height="32">
@@ -340,7 +342,7 @@
     <property name="spawngroup" value="erwyn_soldier"/>
    </properties>
   </object>
-  <object id="29" name="erwyn_soldier2" type="spawn" x="448" y="640" width="448" height="288">
+  <object id="29" name="erwyn_soldier2" type="spawn" x="448" y="576" width="448" height="352">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="erwyn_soldier2"/>
@@ -418,7 +420,7 @@
     <property name="spawngroup" value="stn_colonel_mons5"/>
    </properties>
   </object>
-  <object id="41" name="mikhail" type="spawn" x="576" y="672" width="32" height="32">
+  <object id="41" name="mikhail" type="spawn" x="484" y="415" width="28" height="33">
    <properties>
     <property name="spawngroup" value="mikhail"/>
    </properties>
@@ -494,6 +496,29 @@
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="Keys_fix_stn_skeletons">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="64" name="fix_stn_skeletons_1" type="key" x="544" y="576" width="128" height="64">
+   <properties>
+    <property name="phrase" value="dummy_key_noPhrase"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="65" name="fix_stn_skeletons_2" type="key" x="800" y="608" width="96" height="32">
+   <properties>
+    <property name="phrase" value="dummy_key_noPhrase"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>

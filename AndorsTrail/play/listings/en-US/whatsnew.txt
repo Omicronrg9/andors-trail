@@ -1,6 +1,97 @@
 I put both (release notes + forum announcement) into this source, so it will be easier to maintain them parallel:
 
 
+APK 77 (0.8.11)  Lake Laeroth
+
+Release notes
+=============
+* 6 new quests together with 62 new maps around Remgard and in the Lake Laeroth area: 
+	"The odd coin collector"
+	"Take care of the caretaker"
+	"The last lord of Laeroth"
+	"Shadow of the torturer"
+	"Not Pony Island"
+	"Brutes"
+* Minor map fixes, typos and other little things
+* Translations
+
+
+Forum announcement  //2024-06-16
+==================
+Hello fellow adventurers,
+
+These maps and quests took several years in development as we kept interrupting the work on it to publish other releases.
+Now it's finally finished!
+All of this is located near Remgard, filling up the great Lake Laeroth a bit with maps and life.
+
+There are 6 new quests to find:
+[list] "The odd coin collector"
+Starts at Gylew at the waterway[/list]
+[list] "Take care of the caretaker"
+Starts in Laeroth Manor[/list]
+[list] "The last lord of Laeroth"
+Starts in Laeroth Manor, directly after the caretaker quests[/list]
+[list] "Shadow of the torturer"
+Starts in the Manor dungeons[/list]
+[list] "Not Pony Island"
+Go through the Remgard church basement[/list]
+[list] "Brutes"
+You must have completed "A difference of opinion (sisterfight)". Then walk from Arulir mountain towards Remgard and watch out for a fisherman[/list]
+
+62 new maps around Remgard and in the Lake Laeroth area are waiting to be discovered by you.
+
+
+Here is is the link on our server: [url]https://andorstrail.com/static/AndorsTrail_v0.8.11.apk[/url]
+Google Play, F-Droid and Itch will follow soon.
+
+Happy playing!
+
+
+
+
+APK 76 (0.8.10)  BWM Fill
+
+Release notes
+=============
+* 9 new maps that helps to cover the hole in the worldmap at Blackwater Mountain
+* New quest "It makes no fence"
+* Again a skeleton for "Stoutford's old castle" could have been out of reach. We hope this is the last one
+* Some minor map fixes
+* Translations
+
+
+Forum announcement  //2024-04-28
+==================
+Hello fellow adventurers,
+
+
+a few weeks ago Raphi had surprised us with a bunch of maps that helps to cover the hole in the worldmap at Blackwater Mountain 8-)
+Thank you for the fiddly work in this area of the mountains, lovers of complete maps will appreciate it! 
+Mountains are among the most difficult maps, especially if there already exist maps around them, because the different heights have to match each other exactly.
+
+Raphi has also placed a new quest there for the early midgame level, involving some of Dhayavar's existing residents.
+
+We have fine-tuned the project and are publishing it here now: 
+
+[list]Find 9 new maps filling up the Blackwater Mountain area.[/list]
+
+[list]Help a shepherd in the Mountains above Prim in the new quest "It makes no fence".[/list]
+
+[list]Again a skeleton for "Stoutford's old castle" could have been out of reach. We hope this is the last one.[/list]
+
+[list]New translations[/list]
+
+[list]And as always we've fixed some minor bugs and typos, and have embellished a few little things here and there.[/list]
+
+
+Here is is the link on our server: [url]https://andorstrail.com/static/AndorsTrail_v0.8.10.apk[/url]
+Google Play, F-Droid and Itch will follow soon.
+
+Happy playing!
+
+
+
+
 APK 75 (0.8.9)  Bugfix + translations
 
 Release notes

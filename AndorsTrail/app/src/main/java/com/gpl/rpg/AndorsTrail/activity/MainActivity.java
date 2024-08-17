@@ -397,12 +397,10 @@ public final class MainActivity
 
 	@Override
 	public void onPlayerSteppedOnMapSignArea(MapObject area) {
-		Dialogs.showMapSign(this, controllers, area.id);
 	}
 
 	@Override
 	public void onPlayerSteppedOnKeyArea(MapObject area) {
-		Dialogs.showKeyArea(this, controllers, area.id);
 	}
 
 	@Override

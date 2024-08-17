@@ -1146,7 +1146,7 @@
     },
     {
         "id":"troublemaker_wm_report_40",
-        "message":"You can find the empty house just south east of here. Enter it and you will find your way.",
+        "message":"You can find the empty house just southwest of here. Enter it and you will find your way.",
         "replies":[
             {
                 "text":"I'll be there. Thank you.",
@@ -1526,11 +1526,6 @@
                 "mapName":"wild6_house"
             },
             {
-                "rewardType":"giveItem",
-                "rewardID":"thieves_vault_key_fake",
-                "value":1
-            },
-            {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"aidem_base_defy_spawn",
                 "mapName":"aidem_base_2"
@@ -1794,6 +1789,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"thieves_vault_key",
                         "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80,
                         "negate":true
                     }
                 ]
@@ -3468,106 +3469,6 @@
         ]
     },
     {
-        "id":"captive_girl_selector",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"captive_girl_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":90,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":95,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":96,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"captive_girl_50",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"wicked_witch",
-                        "value":90
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"captive_girl_75",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":95
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"captive_girl_31"
-            }
-        ]
-    },
-    {
-        "id":"captive_girl_65",
-        "message":"Ah, YES. I remember her saying that an \"undead\" friend of her's east of here taught her how to make them.",
-        "replies":[
-            {
-                "text":"OK. Stay here. I will be back with more of them.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"wicked_witch",
-                "value":90
-            }
-        ]
-    },
-    {
-        "id":"wicked_witch_reveal_girl_selector",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"wicked_witch_reveal_girl_spawn",
-                "requires":[
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"wicked_witch_despawn_timer",
-                        "value":72
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":96,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":95,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id":"fix_stn_skeletons_10",
         "message":"What a beautiful view from here.",
         "replies":[
@@ -3640,6 +3541,26 @@
             {
                 "rewardType":"mapchange",
                 "rewardID":"east2",
+                "mapName":"waytogalmore0"
+            }
+        ]
+    },
+    {
+        "id":"fix_stn_skeletons_50",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys_fix_stn_skeletons",
+                "mapName":"waytogalmore0"
+            }
+        ]
+    },
+    {
+        "id":"fix_stn_skeletons_60",
+        "rewards":[
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Keys_fix_stn_skeletons",
                 "mapName":"waytogalmore0"
             }
         ]

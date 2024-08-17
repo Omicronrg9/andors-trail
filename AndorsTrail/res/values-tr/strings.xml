@@ -621,7 +621,7 @@
     <string name="loadsave_import_save_successfull">İçeri aktarma başarılı</string>
     <string name="loadsave_import_save_unsuccessfull">İçeri aktarma başarısız</string>
     <string name="loadsave_import_save_error_unknown">İçe aktarılırken bilinmeyen bir hata meydana geldi.</string>
-    <string name="loadsave_import_file_exists_question">Mevcut Yuvanın Üzerine Yazılsın mı\? Hedef yuvada zaten kayıtlı bir oyun var. Mevcut kaydı tutmak mı, içe aktarılan kayıtla üzerine yazmak mı yoksa kaydı bir yuvaya içe aktarmak mı istiyorsunuz\?
+    <string name="loadsave_import_file_exists_question">Mevcut Yuvanın Üzerine Yazılsın mı? Hedef yuvada zaten kayıtlı bir oyun var. Mevcut kaydı tutmak mı, içe aktarılan kayıtla üzerine yazmak mı yoksa kaydı bir yuvaya içe aktarmak mı istiyorsunuz?
 \n
 \n%1$s
 \n

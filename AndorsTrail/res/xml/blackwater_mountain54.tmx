@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextobjectid="20">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,53 +183,89 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="30" height="15">
+ <layer id="1" name="Ground" width="30" height="15">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj2Iy8H4mBoaDTPS3cy0QrwPiA3Syey3Uzv1QOw9C7aeXf0F2XqKjf2H4CRMC09PeoYLnMCEwvexcx4SJaW3nWix2Ems3qWGErB6XnTA8BwdGV7eeCLsBtF9FHQ==
   </data>
  </layer>
- <layer name="Objects" width="30" height="15">
+ <layer id="2" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
    eJylVUsKAjEMrQX3pq48gzfVIwwuXSmIG8GlCMpcYAS3gn+PINhiI5m0aWcwUJo2aV9emrbPgVIv20rbnl5v26OUXpfskt+0+x3fQMboG6UqZ4c4BvbG+oGR7cgVZdQL40PBNXuoc0nx2hHfM4R7dax+9PNoXzNOUhx8jH2hlZro+BpcByot0plJ84VO+3D/lQ+An31b3eGebJvbtvC8K0YOfa8CabQfInmX9JMO9xnrfK07eSeSfya1QOuNYs587zhvPPcV2dPdDSfLDJ+hqY9/Z8Hic7FwvnMyPkT4xDBjOcG5e6bmUcCk6+pBYlkL97RJTcfqshY3u6sFyw/ev1uLmpLi2UHotx2EmBS7CV4V2bfpmyMJxS6h/o/weHPvxCX3SP0hUm7xvD4Ed+ln
   </data>
  </layer>
- <layer name="Above" width="30" height="15">
+ <layer id="3" name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
    eJy9VEkOgCAMbHiEiW83vsIT35CrnvyIemiC2GVKjJMQq5QZWxiIiLaRaL9GDf7WPlt4edr8PbLAJ6Hm1OIa2ZjX1iA5Xm0Wl6fpcUa0ensUjRnHYP+PV6v0LsVTenOU4ZmD7K8HhGNVatZ4rFpRHzC0fmuaiA+ivojsbeRMW97tQeQcI/5ZOnvk9Ru9c1DtbHghck98iTn9r8kojl9PPKudZg==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="15" visible="0">
+ <layer id="4" name="Walkable" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJzNk1EKwDAIQ3uK3f8KveG+BmM05iVfEwRB25io+1pr/8Afc3lal+Ape9eq+Fuv8uoNqWk0mrSbsB2W66HRKIlPOClvxcVhUu6tEe3TPXJc3R+UG9HN9dPwafqY9ojOkd4f6Z/Mmdw5waP6kz2ZsIk7nul+Eo0U5xsRkcAC
+   eJzNk1EKwCAMQz3F7n8Fb7ivwRgmea37sCAIVl8T23mNMQ9YT6RzmlfhqXjnqv03X52rOySn45HzzrETK9XQ8aiyX3GqupWWxKTau/EXx/2D8271xg6TzMGunk4dro/oP9L5I/WT+SFzTnjUf9Injk1W0lntT+KR0nwDrh3AyQ==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
-  <object id="5" name="west" type="mapchange" x="0" y="256" width="32" height="160">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="256" width="32" height="160">
    <properties>
     <property name="map" value="blackwater_mountain53"/>
     <property name="place" value="east"/>
    </properties>
   </object>
+  <object id="2" name="east1" type="mapchange" x="928" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="bwmfill1"/>
+    <property name="place" value="west1"/>
+   </properties>
+  </object>
+  <object id="3" name="east2" type="mapchange" x="928" y="128" width="32" height="64">
+   <properties>
+    <property name="map" value="bwmfill1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object id="4" name="east3" type="mapchange" x="928" y="224" width="32" height="128">
+   <properties>
+    <property name="map" value="bwmfill1"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object id="5" name="east4" type="mapchange" x="928" y="384" width="32" height="96">
+   <properties>
+    <property name="map" value="bwmfill1"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object id="6" name="south1" type="mapchange" x="768" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="bwmfill2"/>
+    <property name="place" value="north1"/>
+   </properties>
+  </object>
+  <object id="7" name="south2" type="mapchange" x="864" y="448" width="64" height="32">
+   <properties>
+    <property name="map" value="bwmfill2"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object id="17" name="tjure" type="spawn" x="128" y="64" width="96" height="128">
+ <objectgroup id="6" name="Spawn" visible="0">
+  <object id="8" name="tjure" type="spawn" x="128" y="64" width="96" height="128">
    <properties>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="tjure"/>
    </properties>
   </object>
-  <object id="18" name="forestboar" type="spawn" x="352" y="64" width="544" height="288">
+  <object id="9" name="forestboar" type="spawn" x="352" y="64" width="544" height="288">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestboar"/>
    </properties>
   </object>
-  <object id="19" name="forestwasp" type="spawn" x="64" y="224" width="832" height="224">
+  <object id="10" name="forestwasp" type="spawn" x="64" y="224" width="832" height="224">
    <properties>
     <property name="quantity" value="5"/>
     <property name="spawngroup" value="forestwasp"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup id="7" name="Keys" visible="0"/>
 </map>

@@ -182,7 +182,7 @@ public final class DebugInterface {
 				,new DebugButton("cr", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "houseatcrossroads4", "down", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "crossroads", "middle", 0, 0);
 			}
 		})
 				,new DebugButton("lf", new OnClickListener() {
@@ -313,6 +313,13 @@ public final class DebugInterface {
 			}
 		})
 
+				,new DebugButton("wx", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "wexlow_village", "west", 0, 0);
+			}
+		})
+
 				,new DebugButton("fey", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -345,14 +352,14 @@ public final class DebugInterface {
 				,new DebugButton("#1", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waterway11_east", "west", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "swamp3", "north", 0, 0);
 			}
 		})
 
 				,new DebugButton("#2", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothtomb1", "north", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "beekeeper1", "south", 0, 0);
 			}
 		})
 
@@ -360,7 +367,7 @@ public final class DebugInterface {
 				,new DebugButton("#3", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "mountainlake8", "north", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "guynmart", "west2", 0, 0);
 			}
 		})
 
@@ -370,11 +377,46 @@ public final class DebugInterface {
 				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waterway5", "south", 0, 0);
 			}
 		})
-		
+
 				,new DebugButton("#5", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island1", "south2", 0, 0);
+			}
+		})
+
+				,new DebugButton("#6", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothmanor1", "down2", 0, 0);
+			}
+		})
+
+				,new DebugButton("#7", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "final_cave1", "up", 0, 0);
+			}
+		})
+
+				,new DebugButton("#8", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "bwmfill3", "north2", 0, 0);
+			}
+		})
+
+				,new DebugButton("#9", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island2", "down", 0, 0);
+			}
+		})
+
+				,new DebugButton("#10", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothprison3", "south", 2, 0);
 			}
 		})
 
