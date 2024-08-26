@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="33" height="29" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="10">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="33" height="29" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -219,35 +219,35 @@
  </layer>
  <layer id="3" name="Objects" width="33" height="29">
   <data encoding="base64" compression="zlib">
-   eAFjYKAOSBJgYABhaoIPgtQ0Db9ZFhz45SmR1ZVF6H4nj2CjszwocMMrPohpMBrdbHT+RRlUEVVFBgY1ICbGDZTGC7rdqC5BuOEWMP5BeCMLA8NmIKYngIXDMyxp0JWCeEL3wxck83WQ0glInRnQHlw4DM0NV0QhJnspMDB4A7EPEFMLRAHNigbiGCAmBhBSj+xnYswbVTMaAkM5BKSVUF1/Elj2nkIrf1FVMDDcRCoX0OUGir+bgJup5S6Y308Bw4BXiIGBD4hhALkuhYnRihZVoL7JyGkBmU2sTUFIYYFNz10mbKKUiWGrAwmZSG13FKL5WxNYV2qh1ZfIbjoOzT/UdAes3uJAcwuyvbjYyO5AzvunKchTsDCBuQub3WeA4XAPqSzp58KmioEBlzh21cNLFOT3gfB/pAIiHD2BbBAGARgN4dGPBLkH5iYYPRDhQmsfAwDQpjHr
+   eAFjYKAOSBJgYABhaoIPgtQ0Db9ZFhz45SmR1ZVF6H4nj2CjszwocMMrPohpMBrdbHT+RRlUEVVFBgY1ICbGDZTGC7rdqC5BuOEWMP5BeCMLA8NmIKYngIXDMyxp0JWCeEL3wxck83WQ0glInRnQHlw4DM0NV0QhJnspMDB4A7EPEFMLRAHNigbiGCAmBhBSj+xnYswbVTMaAkM5BKSVUF1/Elj2nkIrf1FVMDDcRCoXQHLlQgwMFUAMAqByohTKhojQh2wH2tkBxLS2G+b3U8Aw4AXax4fkV+S6lNbuEFXAHa7k2o2cFpDZuG1ClQlCCgtUGQjvLhM2UcrEsNWBhEyktjsK0fytCcwDWmj1JbKbjkPzDzXdAau3ONDcgmwvLjayO5Dz/mkC5QAu80DisDCBuQub2jPAcLiHVJb0c2FTxcCASxy76uElCvL7QPg/UgERjp5ANgiDAIyG8OhHgtwDcxOMHohwobWPAdJfNb8=
   </data>
  </layer>
- <layer id="5" name="Above" width="33" height="29">
+ <layer id="4" name="Above" width="33" height="29">
   <data encoding="base64" compression="zlib">
-   eAFjYBjeYLfM4PPfQTQ3sSoyMLABMT0Aut247LwJdOMtNHfiUjscxAdjOgGFq5cCA4M3EPsA8UACeqbRgfTnqN3DKwR+o5WrO4Fl2q4RVK4NVGwOVDjfF8TtY+S0gMzGrQNV5icw3fwa4LTDKcvAwAXE1ASkxpUk0H4pKruBWP/8wBO/hMxA9+dA1vkDaTdyONEjTIj1K7HqkN1PLFsBmF4VkdKspwJ2nejhgV0V/URpGSb4fEEoHPCVs/jMHQxyAL38Iew=
+   eAFjYBjeYLfM4PPfQTQ3sSoyMLABMT0Aut247LwJdOMtNHfiUjscxAdjOgGFq5cCA4M3EPsA8UACeqbRgfTnqN3DKwR+o5WrO4Fl2i4KyrXBWk7QI9ZI8Tul4Uyuf+4L4taJnBaQ2bh1oMr8BKabXxSkHVTTyONxyjIwcAExNQGpcSUJtF+Kym4g1j8/8MQvITPQ/UlKeiZkNqnyA2k3slvpESbE+pVYdcjuJ5atAEyvikhp1lMBu0708MCuin6itAwTfL4gFA74yll85g4GOQD2DCOa
   </data>
  </layer>
- <layer id="7" name="Top" width="33" height="29">
+ <layer id="5" name="Top" width="33" height="29">
   <data encoding="base64" compression="zlib">
    eAFjYBgFoyGAGQInBTHFRkVGQ2A0BEZDYDQERkNgNARGQ2A0BEZDYDiFwGUJ0nxDqnpiTH9MohsOk6jeW5YYV5CmZqi5AQAUuwcN
   </data>
  </layer>
- <layer id="9" name="Walkable" width="33" height="29">
+ <layer id="6" name="Walkable" width="33" height="29" visible="0">
   <data encoding="base64" compression="zlib">
-   eAHtklsKgzAQRbORLqT731jJx4HDcIkxalFaIcw4c18GWzvneb9a45yjuK7Sc+x9Vjl8c6pkmNWexaHb64izZ9exHOsf7VOGNLMPe6p3K/2KzohTd/U9ZVzBdM7o2GeE886cp/V8x9Ny//P+9g30/9bPzH9cOebfqb8ipzXrXXnHPVQM829WMqR8zuG9e2NSP4vtOE7SWZ2heZccs9+xN/eM7uwdWMs5zHdv/FW9/dxf5Zd0u6+90/uIZ27C1Rn6qSZsnfkdb6p3Wz3+R3F4U7f02OOfKphUkw8zauKlWfL2zBzmnrnHm+rdqP8AW6ItsQ==
+   eAHtktEJxDAMQ7PIDXL7L1b88UAYx3Hd5KPcFYIUW5bc0jH2PN/PGJw9jn0X2+Pu053hnSNkh6p3VYevYTZzp2dajvo/5dEOUU1z6IPa6/COTzbje/4e7djR2Ex2NCfTaU9n3sZ5j7ft/d/3t7+A/bf6VP7j1Yzvq/8pTiZoOcp35aqncX8nh7rX0D+JZJPBDr5OH9S+cvozrGpNx5l5dep4ntoD/9VuVR0+6Kt7M5dhx0v30HnlWeaunuYp3+Vf8bFczY7ukQ86nY10vqZznkdaX9M72aD2VpzspzqywZUfffIjRBNhlEMNtDnlkQ8a082OzqHRmnLyQO1l/AJuzTEN
   </data>
  </layer>
- <layer id="13" name="Walkable_1f" width="33" height="29" visible="0">
+ <layer id="7" name="Walkable_1f" width="33" height="29" visible="0">
   <data encoding="base64" compression="zlib">
    eAHtkkEKACAIBPtLb+3fIbGg4MWDdpkupki7ja7FgQAEIAABCEAAAjUCZ9f6O7rNw28f8oCPN2F4xE0Xj1idz37vp/14moX0sjg5AelPanot6WfR93XeM21f69TW2xftAhzh
   </data>
  </layer>
- <layer id="14" name="Walkable_3f" width="33" height="29" visible="0">
+ <layer id="8" name="Walkable_3f" width="33" height="29">
   <data encoding="base64" compression="zlib">
-   eAHtklEOAjEIRHsX7+x5DR8vmUxQoNaPVZtsoDAzDM2udebcb2vxnVHcVwkf07PLYecs4qGr3cWhqzHjZjU43os7H5gT0eeEZlbTWfRP+UFPZ1T5Kw6+NL6jB9dnqn6WwyNmGK+BvWJklyt6/3v+3ReI/1ZP5z92jvK/Pdfd/a20xztkteg5F/wnYneWetW88tTFdn1U87L+RHuCjVldfOAmp6s71ZzgA4tv90N9qreD91l+39GsOOzrUXn0qD3zBe5ZH34W4Va9ShudClfNyfrd2gkPE41s1wlf91Ke54qLnL7XudOPODkP5d5g1w==
+   eAHtklEOwzAIQ3OX3Xnnnfh4kmXRAWl+qi1SBAHbmKprnTnv11rcM4r7KuFjenY57JxFPHS1uzh0I8IhZj2tkTs+3lwwJ6LPCc2sprPon/KDns6o8m8cfGm8owfXZ6p+lsMjZhivgX1iZJcnev97/t0vEP+tns5//I3T4eu8UzmeiKd0XUf1fVfvBVdrquVc7d3NfWZ3lvI0r/x0sV0f1bysP9GeYGNWFx+4yenqTjUn+MDi2/1Qn+rt4H2Wv3c0Kw77elQePWpXvsBd9eFnEW7Vq7TRqXDVnKzfrZ3wMNHIds34Gc53Up7nV1iv81Y+tU78AFaWaBE=
   </data>
  </layer>
- <objectgroup id="10" name="Mapevents">
+ <objectgroup id="9" name="Mapevents" visible="0">
   <object id="1" name="west2" type="mapchange" x="0" y="256" width="32" height="288">
    <properties>
     <property name="map" value="plateau19"/>
@@ -303,7 +303,40 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Spawn"/>
- <objectgroup id="12" name="Keys"/>
- <objectgroup id="15" name="Replace"/>
+ <objectgroup id="10" name="Spawn"/>
+ <objectgroup id="11" name="Keys">
+  <object id="10" name="p20cactus1" type="key" x="832" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="plateaucactus_1"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+  <object id="11" name="p20cactus2" type="key" x="672" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="plateaucactus_1"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+  <object id="12" name="p20cactus3" type="key" x="704" y="672" width="32" height="32">
+   <properties>
+    <property name="phrase" value="plateaucactus_1"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+  <object id="13" name="p20cactus4" type="key" x="864" y="704" width="32" height="32">
+   <properties>
+    <property name="phrase" value="plateaucactus_1"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="Replace"/>
 </map>

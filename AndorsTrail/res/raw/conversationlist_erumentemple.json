@@ -111,6 +111,7 @@
         "id":"plateauto2",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"plateauto2_2",
                 "requires":[
                     {
@@ -266,6 +267,347 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"plateau_lvl",
                 "value":0
+            }
+        ]
+    },
+    {
+        "id":"plateaucactus_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"plateaucactus_2a",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/7"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"plateaucactus_2b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"3/7"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"plateaucactus_2c"
+            }
+        ]
+    },
+    {
+        "id":"plateaucactus_2a",
+        "message":"You bump into the cactus and get skewered! It looks like its needles have some kind of poison.",
+        "replies":[
+            {
+                "text":"Ouch!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh c'mon.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"slime"
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"poison_blood",
+                "value":3
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"slime",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"plateaucactus_2b",
+        "message":"A healthy cactus, probably full of poisonous water."
+    },
+    {
+        "id":"plateaucactus_2c",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"plateau1campfire_s",
+        "replies":[
+            {
+                "nextPhraseID":"plateau1campfire_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"omi3_plateau",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"plateau1campfire_1a"
+            }
+        ]
+    },
+    {
+        "id":"plateau1campfire_1a",
+        "message":"A small campfire. Judging by its looks, it must have been used recently. Someone else must have climbed up here few days ago.",
+        "replies":[
+            {
+                "text":"Look into it.",
+                "nextPhraseID":"plateau1campfire_2"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"omi3_plateau",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"plateau1campfire_2",
+        "message":"There is food remains buried among the ashes. Apart from that, nothing draws your attention.",
+        "replies":[
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sigh, I somewhat expected a bag of gold.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"plateau1campfire_1b",
+        "message":"You have already checked this campfire."
+    },
+    {
+        "id":"plat1weeds",
+        "message":"A bunch of weeds and dry shrubs.",
+        "replies":[
+            {
+                "text":"Cut them down!",
+                "nextPhraseID":"plat1weeds_2",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"scythe",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Cut them down!",
+                "nextPhraseID":"plat1weeds_2b",
+                "requires":[
+                    {
+                        "requireType":"wearRemove",
+                        "requireID":"scythe_rusty",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I need a proper tool for clearing this.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"plat1weeds_2",
+        "message":"You swing the scythe a few times and get rid of the bushes easily.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"omi3_plateau",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"plat1weeds_2b",
+        "message":"[You swing your scythe against the bushes. When you are finally done with them, you realise that your scythe has broken definitely.]",
+        "replies":[
+            {
+                "text":"Bah! Useless tool.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"omi3_plateau",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"plat1_quartz",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"omi3_plateau",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"plat1_quartz_1"
+            }
+        ]
+    },
+    {
+        "id":"plat1_quartz_1",
+        "message":"Small shiny specks incrusted in this rock catch your attention.",
+        "replies":[
+            {
+                "nextPhraseID":"plat1_quartz_2"
+            }
+        ]
+    },
+    {
+        "id":"plat1_quartz_2",
+        "message":"Quartz.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"omi3_plateau",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"plat8_hole",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"omi3_plateau",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"plat8_hole_1"
+            }
+        ]
+    },
+    {
+        "id":"plat8_hole_1",
+        "message":"There are a few holes dug in the ground that are surprisingly deep. Someone has been busy.",
+        "replies":[
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Look closer.",
+                "nextPhraseID":"plat8_hole_2"
+            }
+        ]
+    },
+    {
+        "id":"plat8_hole_2",
+        "message":"You look a little closer, but a shiver runs down your spine. You feel uneasy as you start to think you are being watched, somehow.",
+        "replies":[
+            {
+                "nextPhraseID":"plat8_hole_3"
+            }
+        ]
+    },
+    {
+        "id":"plat8_hole_3",
+        "message":"If this now deserted plateau was once safe, it no longer is.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"omi3_plateau",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"plat3_mud",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"plat3_mud_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"omi3_plateau",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"plat3_mud_1b"
+            }
+        ]
+    },
+    {
+        "id":"plat3_mud_1b",
+        "message":"you get soaked in very sticky wet mud. You are slowly sinking into that strange whirlpool!",
+        "replies":[
+            {
+                "text":"Argh!",
+                "nextPhraseID":"plat3_mud_1a"
+            },
+            {
+                "text":"Maybe Andor is waiting for me inside!",
+                "nextPhraseID":"plat3_mud_1a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"omi3_plateau",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"plat3_mud_1a",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"mired",
+                "value":2
             }
         ]
     }

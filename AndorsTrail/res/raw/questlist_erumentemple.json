@@ -24,5 +24,40 @@
                 "logText":"Highest floor"
             }
         ]
+    },
+    {
+        "id":"omi3_plateau",
+        "name":"Hidden: events in the plateau",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Campfire discovered at plateau1, 4f.",
+                "rewardExperience":500
+            },
+            {
+                "progress":2,
+                "logText":"Plateau3f is inaccessible from plateau 4f.",
+                "rewardExperience":500
+            },
+            {
+                "progress":3,
+                "logText":"You are strong enough to cut down some weeds. (Ah, and you have a Scythe)",
+                "rewardExperience":500
+            },
+            {
+                "progress":4,
+                "logText":"Quartz in Plateau1",
+                "rewardExperience":500
+            },
+            {
+                "progress":5,
+                "logText":"Dug holes in Plateau8",
+                "rewardExperience":750
+            },
+            {
+                "progress":6,
+                "logText":"Plateau3 or another: First encounter with the wet mud."
+            }
+        ]
     }
 ]

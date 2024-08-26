@@ -1,0 +1,24 @@
+[
+    {
+        "id":"mired",
+        "iconID":"actorconditions_1:10",
+        "name":"Mired",
+        "category":"physical",
+        "roundEffect":{
+            "visualEffectID":"miss"
+        },
+        "abilityEffect":{
+            "increaseAttackChance":-10,
+            "increaseAttackDamage":{
+                "min":-4,
+                "max":-4
+            },
+            "increaseMaxAP":-1,
+            "increaseMoveCost":2,
+            "increaseUseItemCost":2,
+            "increaseReequipCost":4,
+            "increaseBlockChance":-20,
+            "increaseDamageResistance":-2
+        }
+    }
+]

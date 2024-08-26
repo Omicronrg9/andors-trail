@@ -196,6 +196,12 @@
  <tileset firstgid="8105" name="map_transition_6" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_6.png" width="576" height="256"/>
  </tileset>
+ <tileset firstgid="8249" name="map_pillar_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_pillar_3.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="8409" name="map_plant_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
+ </tileset>
  <layer name="Base" width="33" height="15">
   <data encoding="base64" compression="zlib">
    eJydlcENgzAMRS1uSHCoujsrEI5VTy0jQFboDlUXaCrF6pdlx4bDE4Rg8vPtmNQRJYNHvd57HSvuDE+DrergsRW/FGbn+63118JusFV4jHqQ1ZnjWEtDLrwMpAa8R7Izx7GWV7e+TUQD7/mohqniafiBvlh5s8gQixrwPqJB0xMFYz0NUU80+Kx672nnnnOi5eiIpvdA9Bni66fuf+69vrEEdVxGouvorz+JPaOOVg86mx9ZA9g/pA7sUZo3US88DfJMWT3KylGkPrCO0HOsf15Heq71JK3vajUr8ztX35J4Jn2Vvnu9kWn9k45qkL5/AYIhZLE=
@@ -203,17 +209,27 @@
  </layer>
  <layer name="Ground" width="33" height="15">
   <data encoding="base64" compression="zlib">
-   eJy7z8SAAroYGRi6gfgukvhxMQaGG2j4hBgDBqjkYGC4JsjAUM2BKUcMuC8IoWcB7Z/NSJ4ZnUC7u4D4ogR5+kkB1wUp038CqF9biDpuoRa4D4z3BllM3CiLSBPWMoTNuMuEW94Zi9xUPOqvA9PaTaT0hs3sXDz6sbk3GEk9yO5L0PRyG0ecPgfa/xJLmoe5Jx+Ia4E4GclcXOEEEk9CC9NOHGkWFi7T8fgPBurQ4ixZFiGXhCNOYXa8xeLve0CxYzjCAyROyE0PgWnbH8kNAUD2RRlUeZj9tAIpWNwQg5bnYPaDaJCfmZkgfkNPZyvwpHuQ+lAseVkUakYdlnAnBHZD9SK7YwPQDWdFidMvSkK44oqDs1DxVCGEO0BuwJa20f2PK30ghzcuNch+vo+mBsRnEcNUhwwciQxjGMAWd6QAfOUdMvhKRJ1xD0kNrvwHAgAOnVPX
+   eJy7z8SAAroYGRi6gfgukvhxMQaGG2j4hBgDBqjkYGC4JsjAUM2BKUcMuC8IoWcB7Z/NSJ4ZnUC7u4D4ogR5+kkB1wUp038CqF9biDpuoRa4D4z3BllM3CiLSBPWMoTNuMuEW94Zi9xUPOqvA9PaTaT0hs3sXDz6sbk3GEk9yO5L0PRyG0ecPgfa/xJLmoe5Jx+Ia4E4GclcXOEEEk9CC9NOHGkWFi7T8fgPBurQ4ixZFiGXhCNOYXa8xeLve0CxYzjCAyROyE0PgWnbH8kNAUD2RRlUeZj9tAIpWNwQg5bnYPaDaJCfmaF89HS2Ak+6B4VFKJa8LAo1ow5LuBMCu7G4YwPQDWdFidMvSkK44oqDs1DxVCGEO0BuwJa20f2PK30ghzcuNch+vo+mBsRnEcNUhwwciQxjGMAWd6QAfOUdMvhKRJ1xD0kNrvwHAgB6fVM+
   </data>
  </layer>
  <layer name="Objects" width="33" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOehgZGE4L4ZCkE5jDiFvuohAqjQ66OSi3fzUe+2FAUBi//H1B3HLXgXJ38MgT6wZaA3xu4GRC5csyYVeHDPIIqPkqQ5ob0O2UJMINdUSoIcUNMJBLpLn3sagjJs3uHqD00CyAW+40Unx1SwLLDklU+U6Qfiq4AT2vfyGQd5DBQiBeTAU3IANcZQ+KGixpmVKwDYe/P6G5hxZ2EwKg8lBFENMt9AYPhSBuwecOUtIPOoDF/RcZ7OUVDJxGs+MTBXaiAwCcSiSN
+   eJxjYMAOehgZGE4L4ZCkE5jDiFvuohAqjQ66OajvHmxAUBi//H1B3HLXgXJ38MgPBcDJhMqXZcKuDhnkEVDzVYY0N6DbKUmEG+qIUEMOyCXS3PtY1NEqzXoqUm5GswBuudNI8dUtCSw7JFHlO0H6KXcCRl7/QkLeWQjEi0mwSwkYZsoEwg1X2YOihsS0jA6wxd02HP7+hOYeSu0mB4DKQxVBTLfQGzwUgrgFnztIST/oABb3X2Twl1en0ez4RMXyHgCxwiHQ
+  </data>
+ </layer>
+ <layer name="Objects_1f" width="33" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuMBqxoF2wagbRt2ACnYPAjeMglEwCgYeAADMYQQZ
   </data>
  </layer>
  <layer name="Above" width="33" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBi6gFGY9nZ4yw68WfR0w1OZgXcDtfURY9Z0JtL1HcQRVsSCKCqEwx4kN1RLMjDUSOLWR6l7aQGOCVJuRjSOcKSnf9HT00CENT3KQ2IBPdzyRAZ3eUVrALJ3IO0HAQCHFBKN
+   eJxjYBi6gFGYtuavZmRg8JalnnnkmEVvNzyVGXg3YAO0dsN0JtLdcBBLWKEDS0XcclFk+Gc3mhv2ILmhWpKBoUYSt15i3EtvcEyQcjOicYQjJf4FpQd8cYcO0NPTQIQ1rctDUgA93PJEBnt5RQ8Asncg7QcBAFRcF/I=
+  </data>
+ </layer>
+ <layer name="Above_1f" width="33" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVACAAe8AAE=
   </data>
  </layer>
  <layer name="Top" width="33" height="15">
@@ -221,14 +237,14 @@
    eJxjYGBgiJJloDo4LEF9M0kFj0l0gzcNwoFUQA03RFNoBjXSAy3S1CgYBYMVTGeijbmk5mVK8z42MBjKRVqXJ4TCjRphcEyQMjvQ5QE+KAlz
   </data>
  </layer>
- <layer name="Walkable" width="33" height="15">
+ <layer name="Walkable" width="33" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNlMENACEIBK8RC7H/xu5xuYQQWHaFhyR+hMURxL2e0Pb6lmK/RtVVOdG+93cYrNbmj/YrPsTMno8YuotlvI1hmsXmq3oTsU3wIAbmPZyY0ouMIeJWeqvU32sjxhPr1JH5C5SZZ2OqOmQ5mTfIxFtfdl9m7jNGdHcfg2rHzjXDkOmUGZ9meAF4Nkk9
+   eJzNk0EOACEIA/2ID/H/H9uDMSGkWwp4kMTDooVZtGsOGGvulYmjyeqimizv9zsMVmvro3zEx5jV/oyhuyqMLzDc5rD1qtHtzRiied3wWufOvb5yt6qv1Fw2uu+UnVX5mJbNG/1HtrfXMo8o7xWdR70UT0ZvI/JGxfvoG8024/O/2hWGs/cBhHlIkQ==
   </data>
  </layer>
  <layer name="Walkable_1f" width="33" height="15">
   <data encoding="base64" compression="zlib">
-   eJxTVWDAClRxiA9nAPIzMoaJUdN8UuzH5wZsaknBxLpxJLthKMUFqYBYN9ASIPtnIN0w2O1HlyfXrYTSILb0hk8tKW5GFsenBp8biDWDGDlquYHSPE6OG2ByAMDaK/A=
+   eJxTVWDAClQVIHigAalugLmbHLcj64XpRxdDN5cUewipxWUXNnFKMbFuHGxuoLZb8LkBV1wQo5Ye4UAJINYNtATo8TlQbhjs9qPLk+tWQmkQW3ojVCYR62ZkcXxq8LmBWDOIkaOWGyjN4+S4ASYHALF7MZk=
   </data>
  </layer>
  <layer name="Walkable_3f" width="33" height="15">
@@ -236,6 +252,58 @@
    eJwzU2DACczwyOFSD8PUArjMwmUXrdyAzz5SzKGFe8jBAw3oEW/EumGgwgXZzoHyPzb76OUGfP6lV1gg2zFQ+WUouAFdzUC5gdaA1PpmoNwAwgAzKB8/
   </data>
  </layer>
+ <objectgroup name="Scripts">
+  <object name="plateauto0" type="script" x="32" y="128" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="plateauto1" type="script" x="32" y="0" width="32" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace" visible="0">
+  <object name="p2f0" type="replace" x="0" y="0" width="1056" height="480">
+   <properties>
+    <property name="Above" value="Above"/>
+    <property name="Ground" value="Ground"/>
+    <property name="Objects" value="Objects"/>
+    <property name="Top" value="Top"/>
+    <property name="Walkable" value="Walkable"/>
+    <property name="requireId" value="plateau_lvl"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="0"/>
+   </properties>
+  </object>
+  <object name="p2f1" type="replace" x="0" y="0" width="1056" height="480">
+   <properties>
+    <property name="Walkable" value="Walkable_1f"/>
+    <property name="requireId" value="plateau_lvl"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="p2f1_2" type="replace" x="160" y="64" width="32" height="192">
+   <properties>
+    <property name="Above" value="Above_1f"/>
+    <property name="Objects" value="Objects_1f"/>
+    <property name="requireId" value="plateau_lvl"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="p2f0_2" type="replace" x="160" y="64" width="32" height="192">
+   <properties>
+    <property name="Above" value="Above"/>
+    <property name="Objects" value="Objects"/>
+    <property name="requireId" value="plateau_lvl"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Mapevents">
   <object name="west2" type="mapchange" x="0" y="192" width="32" height="64">
    <properties>
