@@ -242,10 +242,10 @@
  </layer>
  <layer id="13" name="Walkable_1f" width="12" height="35">
   <data encoding="base64" compression="zlib">
-   eAHtkkEKgDAMBPMRwW/4YP8pOQxU2pBNRPBgoLTV2c0SNbvXuZv5qhSarq7Tq6r5+XkC1e/W4eeu8ZPO/4OboiW/axQeTmUrWWDpMd6z85t5xhkpOTp85uvvn/geW9wBX9+VgldYZ1Rf/Fb+mcdKg1+0f11D7gvt3jDS
+   eAHtkksKwCAMRHMUL+89SxYPUtT8SqGLClK1My9DVOQ+5hDRWRl4ur5Orarn168dqN5bR79WPZ903g+0jJf86sno0WW1lSxoqWH30frNPLZHmRwdfcTV/0+4Xn/gehqbD70989ZZLowdP2LsPPBO3697yH0Brm4xQQ==
   </data>
  </layer>
- <layer id="14" name="Walkable_3f" width="12" height="35">
+ <layer id="14" name="Walkable_3f" width="12" height="35" visible="0">
   <data encoding="base64" compression="zlib">
    eAHFj9EJxTAMAzNK9x/gzVf0cSCMnNav0AaCHeUkJ2vl9TvWYmciq51Herc6T8dLT3lJI8PvvOe+1sS4pr6eyXAdrdY7jHue8J1Xum+fl3rYdJe0t3jNmazpu5S9m5Hydjx5znhf/0I+FX/l0OE80/vqg0evZ3TPR9uxMNQJyyy8V3WSPWGn74DXjMmavknZX3t28//5v/50AtbXRjk=
   </data>

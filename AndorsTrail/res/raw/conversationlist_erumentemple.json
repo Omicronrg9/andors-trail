@@ -547,7 +547,7 @@
     },
     {
         "id":"plat8_hole_3",
-        "message":"If this now deserted plateau was once safe, it no longer is.",
+        "message":"Had this place once known safety, it has long since lost it.",
         "rewards":[
             {
                 "rewardType":"questProgress",
